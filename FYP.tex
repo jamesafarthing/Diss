@@ -1,0 +1,67 @@
+\documentclass[11pt,openright,a4paper]{report}
+\include{DissertationDefs}
+\usepackage{graphicx}
+\bibliographystyle{alpha}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage[parfill]{parskip}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{proof}
+\pagestyle{fancy}
+\fancyhf{}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+%\graphicspath{{images/}{../images/}}
+ 
+\usepackage{subfiles}
+ 
+\usepackage{blindtext}
+ 
+\lhead{James Farthing}
+\rfoot{Page \thepage}
+\rhead{\rightmark}
+
+\fancypagestyle{plain}{%
+	%\fancyhf{}%
+	%\fancyfoot[C]{\thepage\ of \pageref{LastPage}}%
+	%\renewcommand{\headrulewidth}{0pt}% Line at the header invisible
+	%\renewcommand{\footrulewidth}{0.4pt}% Line at the footer visible
+}
+
+\title{Using Gamification to create an educational tool based on Natural Deduction Logic}
+\author{James Farthing}
+\date{Bachelor of Science in Computer Science and Mathematics with Honours\\The University of Bath\\April 2016}
+ 
+\begin{document}
+ 
+\declaration{Using Gamification to create an educational tool based on Natural Deduction Logic}{James Farthing}
+\newpage
+
+\abstract
+Your abstract should appear here.  An abstract is a short
+paragraph describing the aims of the project, what was
+achieved and what contributions it has made.
+\newpage
+
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+ 
+\chapter{Introduction}
+	\subfile{introduction}
+\chapter{Literature Review}
+	\subfile{literaturereview}
+\chapter{Requirements Analysis and Requirements Specification}
+	\subfile{RequirementsAnalysisandRequirementsSpecification}
+\chapter{Design}
+	\subfile{design}
+\chapter{Implementation}
+\chapter{System Testing}
+\chapter{Results}
+\chapter{Conclusion}
+ 
+\newpage
+\bibliography{fyprefs}
+\end{document} 
