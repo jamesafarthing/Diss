@@ -31,7 +31,10 @@ Like the draggable objects, the dots will also need to be stored in an array. Wh
 For each level of the game, data needs to be stored so when the user believes they have completed a level, they can check against the stored answer to verify. Stored answers to levels should be in the same format as the proof structure that will be created in the objects. When the proposed solution needs to be compared to the model solution, the two solutions can just be compared to see if they are the same. Solutions for each levels can either be stored as seperate variables or as elements of an array. As the list of levels will be static, it does not matter too much what data structure the levels are in, as long as the level structure is the same nested list structure as what the user will create.
 
 \section{Data Flow Diagram}
-%\begin{figure}[H]
+
+Figure 1 displays how data is stored and used throughout the dragging and dropping process. It includes the actions taken by the user and the processes that happen after the user has executed an action. Boxes in blue indicate User actions, brown circles indicate processes happening and white rectangles indicate data that is stored.
+
+%\begin{figure}[h!]
 \includegraphics[angle=270, scale=0.8]{NaturalDeduction}
 %\centering
 %\end{figure}
@@ -72,7 +75,41 @@ Users will need to create their own proofs from scratch and they will do this by
 
 The last set of functions that will be important for the game to work successfully is functions that determine the level information and that will verify whether answers are correct. A function will hide and show certain information depending on the level that a user is on. Removing certain elements that is not needed for a level makes it easier for a user to know what to do. Also, certain hints and tips can be shown on various levels depending on what the user has learnt to do. This function will neccessarily make sure the user is not overwhelmed with content and only the parts they need to use are included in each level.
 
-A final function will be a verification check to see if what the user has created is a valid solution, and whether this solution is correct. This will be a comparison algorithm between an ideal, valid solution for a particular level and the user's attempt at the level.
-
+A final function will be a verification check to see if what the user has created is a valid solution, and whether this solution is correct. This will be a comparison algorithm between an ideal, valid solution for a particular level and the user's attempt at the level. This algorithm should take into account different orders that the proof can be presented in, which will make it more complex than just a simple comparison algorithm.
 
 \section{Interface Design}
+
+\subsection{Design Principles}
+
+Designing the visual representation that the user will be presented with is crucial to any design process. Making something that is aesthetically pleasing to look at and also easy to navigate can be just as important to the user as the functionality of the software. Software which has the capabilities to do a lot and is computationally good but has a poor user interface can really be detrimental to user experience so thinking about how users interact with the software needs to be concidered.
+
+My user will be teenagers and young adults. Realising the users that will mainly play the game will affect the design. This age group are technologically savvy and are used to frequently using touchscreens where swiping and dragging is commonplace. While this project will not be using touchscreens, understanding that the audience does not need to be patronised about how to use a computer is important. By keeping a simple and straightforward design, the users can focus their time on learning Natural Deduction and less time navigating many menus. Users will achieve the levels quicker with a declutted screen with only the necessary features displayed.
+
+Consistancy is also crucial when designing a user interface. Each level should have the same layout, the canvas in the same place, the buttons in the same place. By creating this consistancy, the user will familiarise themselves with the structure and layout, and they will know where to go to, for example, create a new variable object, or what to do when they need delete everything on the screen. The tutorial is especially important to have the same format as the main game, because this will be the first time a user will see the game and the interface. This will be when most of the learning of the interface will take place.  
+
+The interface should be designed so if the user has not learnt correct way to user the interface, they should be notified what they have done correctly or incorrectly. This instant user feedback will not only help the user how to use the interface correctly, but also stop future similar mistakes. Users should not be in a position that they are puzzled in what is going on and therefore should be constantly told if an action they have performed is invalid.
+
+Even if an action is valid, sometimes the user is mistaken in their action. Users ideally would not want to start again if they make one mistake. Some way of rectifying a mistake will be beneficial for overall user experience. Creating a user interface which takes into account mistakes will hopefully be used much more that requires a user to go through a long process of creating their proof again.
+  
+Crucially, the user must feel they are in control of the system at all times. They will feel calm and comfortable when what they expect to happen does happen and this is helped by the consistant clear design. If the user doesn't encounter any suprises and is not confused then the design is fit for purpose.
+
+\subsection{User Designs}
+
+Taking into account all of these attributes, it is important to envisage and plan what you want the ideal user interface design to look like before implementing it. Four designs for a potential user interface were suggested for different elements of the game. Advantages and disadvantages of each design are outlined below: 
+
+\subsubsection{Basic Level Design}
+\centerline{\includegraphics[angle=0, scale=0.3]{Design1}}
+
+This first design is the basic layout of the game. It keeps a clean, simple design where every box has a very different purpose. The canvas is detached from the rest of the game to indicate the area you can drag and drop from. This will be outlined in the tutorial page. The box that is placed on the canvas is a proof structure which appears once a proof structure button is pressed in the top right box where the buttons are contained. Hints that the user can use to remind themselves what they have learnt are placed in the bottom right box and there may be an option to toggle hints on and off, so the user only gets the help if they need it.
+
+A bin and brackets will be placed in the corners of the canvas so users can drag there elements to either the bin or brackets, depending on what the user wants to do. By keeping the core design to these simple elements, it will make the user feel in control because there are no complicated menus to navigate, making the user experience smooth. 
+
+\subsubsection{Pop up boxes for level introduction}
+\centerline{\includegraphics[angle=0, scale=0.3]{Design2}}
+
+The second design screen understandably takes the very similar format of the first screen. All of the boxes are in the same place which keep continuity. This screen is to demonstrate what is presented to the user when they start a new level. All of the boxes including the canvas and the buttons will remain visable but not clickable whist the pop up is active on the screen. The pop up will show the proof that the user needs to make. Pop ups will also be used to introduce new content to the user that they can then use in future levels. The user will have to click a button on the pop up to dismiss it and then they can play the level, like shown in the first design.
+
+\subsubsection{Multiple lines of proof and other objects on the canvas}
+\centerline{\includegraphics[angle=0, scale=0.3]{Design3}}
+
+The third screen displays how a user will build a proof of muliple layers. Once the user drags proofs together then the software will automatically detect the new form the proof needs to be drawn in and will be rendered differently. The only positions that users will be able to drag onto the proof will be where the dots exist. In the design, the user would drag the 'C' element onto the remaining dot to complete the proof.
