@@ -1,9 +1,12 @@
 \documentclass[11pt,openright,a4paper]{report}
 \include{DissertationDefs}
-\usepackage{graphicx}
-\bibliographystyle{alpha}
+
+%\bibliographystyle{alpha}
 \usepackage{url}
-\usepackage{hyperref}
+
+\usepackage{natbib}
+\bibliographystyle{agsm}
+
 \usepackage[parfill]{parskip}
 \usepackage{amsmath}
 \usepackage{fancyhdr}
@@ -29,13 +32,13 @@
 	%\renewcommand{\footrulewidth}{0.4pt}% Line at the footer visible
 }
 
-\title{Using Gamification to create an educational tool based on Natural Deduction Logic}
+\title{Using Gamification to Create an Educational Tool based on Natural Deduction Logic}
 \author{James Farthing}
 \date{Bachelor of Science in Computer Science and Mathematics with Honours\\The University of Bath\\April 2016}
  
 \begin{document}
  
-\declaration{Using Gamification to create an educational tool based on Natural Deduction Logic}{James Farthing}
+\declaration{Using Gamification to Create an Educational Tool based on Natural Deduction Logic}{James Farthing}
 \newpage
 
 \abstract
@@ -58,6 +61,7 @@ achieved and what contributions it has made.
 \chapter{Design}
 	\subfile{design}
 \chapter{Implementation}
+	\subfile{implementation}
 \chapter{System Testing}
 \chapter{Results}
 \chapter{Conclusion}

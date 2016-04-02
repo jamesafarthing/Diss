@@ -1,0 +1,61 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}
+\contentsline {chapter}{\numberline {2}Literature Review}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Project summary}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}Gamification}{4}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Uses}{5}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Advantages}{6}{subsection.2.2.2}
+\contentsline {subsubsection}{Instant Feedback}{6}{section*.4}
+\contentsline {subsubsection}{Social and Competitive Aspects}{7}{section*.5}
+\contentsline {subsubsection}{Fun}{8}{section*.6}
+\contentsline {subsubsection}{Hints and Tips}{8}{section*.7}
+\contentsline {subsection}{\numberline {2.2.3}Current Educational Games}{8}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Education}{9}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Different learning styles}{10}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Current Natural Deduction Educational Resources}{11}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Online Natural Deduction Resources}{12}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Natural Deduction}{13}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}History}{13}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Why Natural Deduction is Suitable to Make a Game for}{14}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Mathematics}{15}{subsection.2.4.3}
+\contentsline {subsubsection}{Notation}{15}{section*.8}
+\contentsline {subsubsection}{Rules}{16}{section*.9}
+\contentsline {paragraph}{Conjunction introduction}{16}{section*.10}
+\contentsline {paragraph}{Conjunction elimination}{16}{section*.11}
+\contentsline {paragraph}{Implication introduction}{17}{section*.12}
+\contentsline {paragraph}{Implication elimination (Modus ponens)}{17}{section*.13}
+\contentsline {paragraph}{Disjunction introduction}{17}{section*.14}
+\contentsline {paragraph}{Disjunction elimination}{18}{section*.15}
+\contentsline {section}{\numberline {2.5}Concluding remarks}{18}{section.2.5}
+\contentsline {chapter}{\numberline {3}Requirements Analysis and Requirements Specification}{20}{chapter.3}
+\contentsline {section}{\numberline {3.1}Target Audience}{20}{section.3.1}
+\contentsline {section}{\numberline {3.2}Project Goals and Targets}{21}{section.3.2}
+\contentsline {section}{\numberline {3.3}Software Requirements}{21}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Functional Requirements}{22}{subsection.3.3.1}
+\contentsline {subsubsection}{Gaming Elements}{22}{section*.16}
+\contentsline {subsection}{\numberline {3.3.2}Non Functional Requirements}{23}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Hardware Requirements}{24}{section.3.4}
+\contentsline {section}{\numberline {3.5}Programming Language}{25}{section.3.5}
+\contentsline {section}{\numberline {3.6}Project Limitations and Changes to Existing Systems}{26}{section.3.6}
+\contentsline {chapter}{\numberline {4}Design}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}Data Design}{29}{section.4.1}
+\contentsline {section}{\numberline {4.2}Data Flow Diagram}{31}{section.4.2}
+\contentsline {section}{\numberline {4.3}Architecture Design}{33}{section.4.3}
+\contentsline {section}{\numberline {4.4}Interface Design}{35}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Design Principles}{35}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}User Designs}{36}{subsection.4.4.2}
+\contentsline {subsubsection}{Basic Level Design}{37}{section*.17}
+\contentsline {subsubsection}{Pop up boxes for level introduction}{38}{section*.18}
+\contentsline {subsubsection}{Multiple lines of proof and other objects on the canvas}{38}{section*.19}
+\contentsline {chapter}{\numberline {5}Implementation}{40}{chapter.5}
+\contentsline {section}{\numberline {5.1}Beginning the project}{40}{section.5.1}
+\contentsline {section}{\numberline {5.2}Drag and Drop}{41}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Original Colour System}{42}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Dots System}{43}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Data Structures}{45}{section.5.3}
+\contentsline {section}{\numberline {5.4}Unification Algorithm}{46}{section.5.4}
+\contentsline {section}{\numberline {5.5}Drawing and rendering algorithms}{47}{section.5.5}
+\contentsline {section}{\numberline {5.6}Levels and how the Software was turned into a Game}{48}{section.5.6}
+\contentsline {chapter}{\numberline {6}System Testing}{50}{chapter.6}
+\contentsline {chapter}{\numberline {7}Results}{51}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusion}{52}{chapter.8}

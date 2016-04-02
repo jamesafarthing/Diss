@@ -1,19 +1,32 @@
-\documentclass[FYP.tex]{subfiles}
+\documentclass[a4paper]{article}
+\usepackage{graphicx}
 \bibliographystyle{alpha}
-%\usepackage{url}
-%\usepackage{hyperref}
-%\usepackage[parfill]{parskip}
-%\usepackage{amsmath}
-%\usepackage{fancyhdr}
-%\usepackage{proof}
-
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage[parfill]{parskip}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{proof}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{James Farthing}
+\lhead{\leftmark}
+\rfoot{Page \thepage}
+\title{Literature Review: Using Gamification to create an educational tool based on Natural Deduction Logic }
+\author{James Farthing}
+\date{20 November 2015}
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
 \section{Project summary}
 
-The idea behind this project is to take the Natural Deduction logic in mathematics and try to make it easier for older secondary school and university students to understand. In my opinion, an effective way of doing this is through gamification (making a game of it) which will hopefully engage students in a new and different way. As education is not usually presented in this way, research will be undertaken to see how gamifying educational concepts can be helpful for the user. Whilst primarily a software project, where a game will be created, research needs to done to find the most effective way of communicating via games. Research also needs to be done to fully understand the topic of Natural Deduction, so the concepts can be presented correctly in the game.
+The idea behind this project is to take the Natural Deduction logic in mathematics and try to make it easier for older secondary school and university students to understand. In my opinion, an effective way of doing this is through gamification (making a game of it) which will hopefully engage students in a new and different way. As education is not usually presented in this way, research will be undertaken to see how gamifying educational concepts can be helpful for the user. Whilst primarily a software project, where a game will be created, research needs to done to find the most effective way of communicating via games. Research also needs to be done to fully understand the topic of natural deduction, so the concepts can be presented correctly in the game.
 
 \section{Gamification}
 
-Gamification is the idea of making a task or situation use game mechanics that does not naturally use this context. It is theoretically possible to make many tasks into a game using game-like concepts and this is why gamification has become business in a wide variety of topic areas \cite{muntean2011raising}.
+Gamification is the idea of making the making a task or situation use game mechanics that does not naturally use this context. It is theoretically possible to make any task into a game into using game-like concepts and this is why gamification has become business in a wide variety of topic areas \cite{muntean2011raising}.
 
 It is important to understand the characteristics of a game to fully understand how a task can take on game like properties. A game is defined by a system in which players engage in abstract challenge, defined by rules, interactivity, and feedback, that results in a quantifiable outcome often eliciting an emotional reaction. \cite{koster2013theory} Gamification of this in my educational context would be to set rules for a user to follow, challenge them with different Natural Deduction concepts and give them constructive, instant feedback in the task which is not usually presented in this format.
 
@@ -27,11 +40,11 @@ Industry has also used gamification. Studies have investigated whether gaming co
 
 Whilst education and industry are two different things, there are qualities and skills that are required in both areas. Increasing motivation to learn a particular mathematical formula, for example, could be very beneficial for some students. A higher rate of productivity would also be advantageous, as students often have many tasks ongoing at any one time. An increase in these skills would overall increase the enjoyment of learning and reinforce understanding so students can get a better handle on the key ideas. 
 
-Gamification has also been embraced by the educational sector. This is by far the most important sector for this project. It is important to understand how gamification has helped improve education and helped student to learn. This is the core to the project, that gamification of educational topics will aid students to learn the topics in an easier way. Above all else, helping people being able to learn the Natural Deduction logic in an easier way is the main goal of this project.
+Gamification has also been embraced by the educational sector. This is by far the most important sector for this project. It is important to understand how gamification has helped improve education and helped student to learn. This is the core to the project, that gamification of educational topics will aid students to learn the topics in an easier way. Above all else, making people being able to learn the Natural Deduction logic in an easier way is the main goal of this project.
 
 \subsection{Advantages}
 
-There is an abundance of educational games on the Internet. Educational games have many benefits that will help students learn. Instant feedback, social aspects, competitiveness, games being fun and giving the user hints and tips are all advantages that make games a better way of learning that other formats. These are explained in detail below. 
+There is an abundance of educational games on the Internet. Educational games have many benefits that will help students learn. Instant feedback, social aspects, competitiveness, games being fun and giving the user hints and tips are all advantages that make games a better way of learning that other formats. These will all be explained in detail below. 
 
 %Instant Feedback
 \subsubsection{Instant Feedback}
@@ -63,7 +76,7 @@ Research published by the UKIE stated that the UK games market is worth £3.944 
 
 %Hints and tips 
 \subsubsection{Hints and Tips}
-The final advantage of gamifying education that will be discussed is the ability to be able to give users hints and tips. Students learning a topic can often get stuck, and sometimes with nowhere to turn, may give up and try again another time. What games can offer to educational topics that more traditional methods can not offer is that they can give the player hints and tips at that moment whilst playing. If a player is struggling with a particular topic, a prompt could be the only motivation a student needs to carry on. This hint could help the student continue working through the problem instead of stopping. This can aid further learning and a longer time will be spent playing the game because the user will be able to complete the levels. 
+The final advantage of gamifying education that will be discussed is the ability to be able to give users hints and tips. Students learning a topic can often get stuck, and sometimes with nowhere to turn, may give up and try again another time. What game can offer to educational topics that more traditional methods can not offer is that they can give the player hints and tips at that moment whilst playing. If a player is struggling with a particular topic, a prompt could be the only motivation a student needs to carry on. This hint could help the student continue working through the problem instead of stopping. This can aid further learning and a longer time will be spent playing the game because the user will be able to complete the levels. 
 
 Chen discussed this in his 2009 paper on giving users prompts to online learners \cite{chen2009effects}. He found that "the main factor affecting reflection levels is high levels prompts". He went on to say that "We believe that effective reflection can be achieved by reflection prompts". This means that prompts can be an effective tool for promoting learning performance through a process of reflection.
 
@@ -93,7 +106,7 @@ Every person is different in which way they learn best and it would be rare that
 \item{Visual Learning}
 \subitem{Visual learners like pictures and graphs. They'd prefer to see something written down in front of them rather than being said to them. Maps and other visual learning tools can also be effective for these kind of learners.}
 \item{Auditory Learners}
-\subitem{Auditory learners learn best by listening. They can take in information well from lectures and reading out loud to themselves. Good techniques for Auditory learners would be to record themselves saying information or hearing the information being said by others.}
+\subitem{Auditory learners learn best by listening.They can take in information well from lectures and reading out loud to themselves. Good techniques for Auditory learners would be to record themselves saying information or hearing the information being said by others.}
 \item{Kinaesthetic Learners}
 \subitem{Kinaesthetic learning learn best by doing stuff. They like to touch and feel objects. If information is presented to them they learn best by writing it down. Playing a game where they were actively playing it would suit them well.}
 \end{itemize}
@@ -105,7 +118,7 @@ From these different learning styles, we can already see that different people l
 
 Auditory learners could also benefit from playing a game. An idea to help auditory learners learn effectively would be include audio clips within the game. This could be after the levels, in the post game summary. There could also be videos to accompany the game. This could make the game more interesting, but it could also have a increased impact with auditory learners if the audio content was relevant and educational.
 
-\subsection{Current Natural Deduction Educational Resources}
+\subsection{Current Natural Deduction educational resources}
 
 Natural Deduction has been taught in schools and universities for a long period now. With the more recent creation of the internet, there is now a number of different resources online which teach people the basics of natural deduction. All of them teach it in slightly different ways and each method of teaching the material will benefit a different group of learners better. In my game I will try and grasp some of the better characteristics of these ways of learning material and wrap them all up within my game.
 
@@ -121,11 +134,11 @@ Natural Deduction has been taught in schools and universities for a long period 
 From these common techniques of delivering material, there is a trend that visual and auditory learners are well catered for through Notes and Lectures, as well as Videos catering for both. Kinesthetic learners may miss out somewhat by these traditional ways of learning.
 
 
-\subsection{Online Natural Deduction Resources}
+\subsection{Online Natural Deduction resources}
 
 Whilst not strictly an educational resource, Automated Theorem Provers are computer driven systems that can automatically work out a proof tree from a given end point \cite{automated}.These have their advantages as they automatically create a proof, so once the theory has been learnt by an individual, it can be checked by the automated theorem prover. What this project wants to achieve would be to have an automated theorem prover which can guide a user through creating a proof for themselves. The game will have all of the logic ingrained in the code, but the objective is to make the user learn as they go along. 
 
-One similar project that has been undertaken is a Proof Assistant for Natural Deduction logic \cite{gasquet2011panda}. This tool has many good points that are worth highlighting. The notation is in keeping for what will be included in this project. It is also a very interactive system that will definitely benefit kinaesthetic learners. Things that will be focused on in this project is the aspect of becoming a game. Utilising levelling systems, fun and giving hints and tips to benefit the user. Additional features of some sort of social aspect would also improve engagement in the game.
+One similar project that has been undertaken is a Proof Assistant for Natural Deduction logic \cite{gasquet2011panda}. This tool has many good points that are worth highlighting. The notation is in keeping for what will be included in this project. It is also a very interactive system that will definitely benefit kinaesthetic learners. Things that I would like to focus on in this project is the aspect of becoming a game. Utilising levelling systems, fun and giving hints and tips to benefit the user. Additional features of some sort of social aspect would also improve engagement in the game.
 
 By creating this project, it aims to target this type of learner through the interactive process of getting the player to 'do' things. If Natural Deduction can be taught effectively as a game, all the different learning types will have some benefit from playing, but especially kinaesthetic learners.
 
@@ -143,11 +156,11 @@ Whilst this was the true start of where the ideas of Natural Deduction came from
 
 Not only is Natural Deduction important for practical uses in solving proofs. Over the 1960's and even continuing now, Natural Deduction has been used as a theoretical tool, and lots of research has gone into it to improve how Natural Deduction is applied. The aim of this is to make practical Natural Deduction problems easier to solve and quicker, possibly using computing resources to do so. The way Natural Deduction proofs are used has expanded, partly due to the work of Prawitz and Raggio on Normal Proofs. \cite{philNadDed}  More work continues to be done on many streams of Natural Deduction today to improve the way people use the logic system.
 
-\subsection{Why Natural Deduction is Suitable to Make a Game for}
+\subsection{Why Natural Deduction is suitable to make a game for}
 
 Natural Deduction is a logical proof system which is thought of as closely aligned to people's natural reasoning patterns. \cite{arthur2011natural} It should, in theory, be easy to teach a system that is closely related to people's intuitive reasoning patterns. In reality, it might be that the mathematical notation could be one of the main things standing in the way of people learning this logical system. By creating something that is easier to grasp and understand, users should be able to connect with their intuition once again and understand the concepts behind Natural Deduction.  
 
-Because of its close connection with being taught since the 1950s, this way of teaching logic has been one of the primary methods for many years now. Its ongoing reputation as a primary way of teaching mathematical logic in both mathematics and philosophy means that it is still very popular today. An easily accessible way to learn this new 'language' for the first time can only be beneficial in my opinion.
+Because of its close connection with being taught since the 1950s, this way of teaching logic has been one of the primary methods for many years now. Because of its ongoing reputation as a primary way of teaching mathematical logic in both mathematics and philosophy, it is still very popular today. An easily accessible way to learn this new 'language' for the first time can only be beneficial in my opinion.
 
 Natural Deduction is a core system of logic that has be used regularly over the last fifty years. This importance has been shown through the amount of educational resources produced and the amount of material that has be written on the topic of Natural Deduction. The lacking of a fun, easy way to learn Natural Deduction is a shame and is why I feel it is necessary to create a game based on this logical system.
 
@@ -272,3 +285,7 @@ Education, the second section, talked about different learning styles. There is 
 Finally, an introduction to Natural Deduction. This gave a background to the history and to reasons why Natural Deduction should be used to make a game. Natural deduction is still one of the core logic concepts and it is important to make sure people know about it. 
 
 All these things lead me to believe that a project in this area would be extremely worthwhile which will have value to many different groups. Academics and Students alike should find benefit in a resource of this kind. This project, whilst mainly appealing to Mathematicians due to the content, should also appeal to other key departments such as Computer Science where Natural deduction is used extensively. Philosophers should also find this project interesting due to the ongoing research into whether gaming is an effective teaching resource.    
+
+\newpage
+\bibliography{fyprefs}
+\end{document}
