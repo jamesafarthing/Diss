@@ -37,13 +37,13 @@ Gentzen, G.  \harvardyearleft 1964\harvardyearright , `Investigations into
   288--306.
 \newline\harvardurl{http://www.jstor.org/stable/20009142}
 
-\harvarditem{Halbach}{n.d.}{LogicND}
-Halbach, V.  \harvardyearleft n.d.\harvardyearright , `Introduction to logic:
+\harvarditem{Halbach}{2014}{LogicND}
+Halbach, V.  \harvardyearleft 2014\harvardyearright , `Introduction to logic:
   Natural deduction', \url
   {http://logicmanual.philosophy.ox.ac.uk/vorlesung/logic6p.pdf}.
 
-\harvarditem{Indrzejczak}{n.d.}{philNadDed}
-Indrzejczak, A.  \harvardyearleft n.d.\harvardyearright , `Natural deduction',
+\harvarditem{Indrzejczak}{2016}{philNadDed}
+Indrzejczak, A.  \harvardyearleft 2016\harvardyearright , `Natural deduction',
   \url {http://www.iep.utm.edu/nat-ded/}.
 
 \harvarditem{Ja{\'s}kowski}{1934}{jaskowski1934rules}
@@ -77,8 +77,8 @@ Muntean, C.~I.  \harvardyearleft 2011\harvardyearright , Raising engagement in
   e-learning through gamification, {\em in} `Proc. 6th International Conference
   on Virtual Learning ICVL', pp.~323--329.
 
-\harvarditem{{\em MyMaths Website}}{n.d.}{mymaths}
-{\em MyMaths Website}  \harvardyearleft n.d.\harvardyearright , \url
+\harvarditem{{\em MyMaths Website}}{2016}{mymaths}
+{\em MyMaths Website}  \harvardyearleft 2016\harvardyearright , \url
   {http://www.mymaths.co.uk/}.
 
 \harvarditem{nptelhrd}{2015}{natdeclecture}
@@ -123,9 +123,10 @@ Suhonen, K., V\"{a}\"{a}t\"{a}j\"{a}, H., Virtanen, T. \harvardand\ Raisamo, R.
   in the Ubiquitous Era', MindTrek '08, ACM, New York, NY, USA, pp.~18--22.
 \newline\harvardurl{http://doi.acm.org/10.1145/1457199.1457204}
 
-\harvarditem{Sutcliffe}{n.d.}{automated}
-Sutcliffe, G.  \harvardyearleft n.d.\harvardyearright , `Automated theorem
-  proving', \url {http://www.cs.miami.edu/~tptp/OverviewOfATP.html}.
+\harvarditem{Sutcliffe}{2009}{automated}
+Sutcliffe, G.  \harvardyearleft 2009\harvardyearright , `{The TPTP Problem
+  Library and Associated Infrastructure: The FOF and CNF Parts, v3.5.0}', {\em
+  Journal of Automated Reasoning} {\bf 43}(4),~337--362.
 
 \harvarditem{UKIE}{2014}{gamesresearch}
 UKIE  \harvardyearleft 2014\harvardyearright , `The games industry in numbers',

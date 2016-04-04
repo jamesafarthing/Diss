@@ -181,10 +181,13 @@ Everything on the top line is assumed to be true, with each statement separated 
 
 \paragraph{Conjunction introduction}
 
-Introducing the 'and' symbol into the proof means that given two things that are deemed to be true, we can conclude both together are true. In formal mathematical notation, it would be written as shown in equation 1 below.
+Introducing the 'and' symbol into the proof means that given two things that are deemed to be true, we can conclude both together are true. In formal mathematical notation, it would be written as shown in Equation 2.1 below.
 
-\bigskip \centerline{\infer[\wedge I]{A \wedge B}{A & B}}
-\bigskip
+\begin{equation} \label{eq:solve}
+%\bigskip
+\centerline{\infer[\wedge I]{A \wedge B}{A & B}}
+\end{equation}
+%\bigskip
 A real life example of this would go as follows:
 \begin{enumerate}
 \item{It is sunny.}
@@ -194,12 +197,17 @@ A real life example of this would go as follows:
 
 \paragraph{Conjunction elimination}
 
-Whilst the introduction takes two pieces of separate pieces of information and makes it into one new piece of information, conjunction elimination takes one piece of already assumed information and from this we can deduce two separate pieces of information. Equations 2 and 3 show what can be achieved.
+Whilst the introduction takes two pieces of separate pieces of information and makes it into one new piece of information, conjunction elimination takes one piece of already assumed information and from this we can deduce two separate pieces of information. Equations 2.2 and 2.3 show what can be achieved.
 
-\bigskip \centerline{\infer[\wedge E1]{A}{A \wedge B}}
-\bigskip
+\begin{equation}
+%\bigskip 
+\centerline{\infer[\wedge E1]{A}{A \wedge B}}
+\end{equation}
+%\bigskip
+\begin{equation}
 \centerline{\infer[\wedge E2]{B}{A \wedge B}}
-\bigskip
+\end{equation}
+%\bigskip
 Similarly to the previous example we use conjunction, but instead of deducing the conjunction, we already have it, so we can deduce the individual components.
 \begin{enumerate}
 \item{It is sunny and hot.}
@@ -210,15 +218,21 @@ Similarly to the previous example we use conjunction, but instead of deducing th
 \paragraph{Implication introduction}
 This takes two statements. The first of which is assumed to be true. Now if we can deduce from this another element is true then trivially one must imply the other. 
 
-\bigskip \centerline{\infer[\rightarrow I /x]{A \rightarrow B}{[x:A] & B}}
-\bigskip
+\begin{equation}
+%\bigskip 
+\centerline{\infer[\rightarrow I /x]{A \rightarrow B}{[x:A] & B}}
+\end{equation}
+%\bigskip
 
 \paragraph{Implication elimination (Modus ponens)}
 
-In implication elimination we are given an implication and (at least) one other piece of information and from this we can eliminate the implication to conclude that another element is also true. In Equation 4 below, we see that A $\rightarrow$ B is true but this is not enough to conclude that A or B is individually true. By being given the extra information that A is true, we can then use this rule to deduce B must also be true. 
+In implication elimination we are given an implication and (at least) one other piece of information and from this we can eliminate the implication to conclude that another element is also true. In Equation 2.4 below, we see that A $\rightarrow$ B is true but this is not enough to conclude that A or B is individually true. By being given the extra information that A is true, we can then use this rule to deduce B must also be true. 
 
-\bigskip \centerline{\infer[\rightarrow E]{B}{A \rightarrow B & A}}
-\bigskip
+\begin{equation}
+%\bigskip 
+\centerline{\infer[\rightarrow E]{B}{A \rightarrow B & A}}
+\end{equation}
+%\bigskip
 A practical example of this rule being used may be clearer to understand:
 \begin{enumerate}
 \item{James eating chocolate causes James to be happy.}
@@ -226,14 +240,17 @@ A practical example of this rule being used may be clearer to understand:
 \item{It can be concluded:  James is happy.}
 \end{enumerate}
 
-In relation to Equation 4 above, James eating chocolate is A and James being happy is B. When the fact is given that James \textit{is} eating chocolate, then it can be concluded that James is happy and this is true on its own because of the other information we have.
+In relation to Equation 2.4 above, James eating chocolate is A and James being happy is B. When the fact is given that James \textit{is} eating chocolate, then it can be concluded that James is happy and this is true on its own because of the other information we have.
 
 \paragraph{Disjunction introduction}
 
-This introduces the 'or' symbol into an equation based on the fact that one of the variables is true. This is because only one of the variables need to hold true for the disjunction to hold true. This is shown in Equation 5 and then an example is given in text.
+This introduces the 'or' symbol into an equation based on the fact that one of the variables is true. This is because only one of the variables need to hold true for the disjunction to hold true. This is shown in Equation 2.5 and then an example is given in text.
 
-\bigskip \centerline{\infer[\vee I]{A \vee B}{A}}
-\bigskip
+\begin{equation}
+%\bigskip 
+\centerline{\infer[\vee I]{A \vee B}{A}}
+\end{equation}
+%\bigskip
 
 \begin{enumerate}
 \item{Football is a sport.}
@@ -244,10 +261,13 @@ The second variable does not have to be true because the first variable, in this
 
 \paragraph{Disjunction elimination}
 
-This rule is very slightly more complex and gives a flavour of what complexity is possible with natural deduction proofs. This is still a simple rule and this list is not exhaustive of rules. Disjunction elimination manages to remove the disjunction because of other information given. There are two implication statements, both implying the same thing. Both these implications hold true. There is then a third true statement, which is a disjunction between the first variables of each implication. Because of the disjunction, it holds that at least one of the variables is true, meaning that the third variable that is implied is true. We conclude that the implied variable is true. Displayed in Equation 6 is a much simpler way to explain the rule using formal mathematical notation.
+This rule is very slightly more complex and gives a flavour of what complexity is possible with natural deduction proofs. This is still a simple rule and this list is not exhaustive of rules. Disjunction elimination manages to remove the disjunction because of other information given. There are two implication statements, both implying the same thing. Both these implications hold true. There is then a third true statement, which is a disjunction between the first variables of each implication. Because of the disjunction, it holds that at least one of the variables is true, meaning that the third variable that is implied is true. We conclude that the implied variable is true. Displayed in Equation 2.6 is a much simpler way to explain the rule using formal mathematical notation.
 
-\bigskip \centerline{\infer[\vee E] {C}{A \rightarrow C, B \rightarrow C, A \vee B}}
-\bigskip
+\begin{equation}
+%\bigskip 
+\centerline{\infer[\vee E] {C}{A \rightarrow C, B \rightarrow C, A \vee B}}
+\end{equation}
+%\bigskip
 
 An even easier way to understand this is to give a simple example.
 \begin{enumerate}

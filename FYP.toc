@@ -36,7 +36,8 @@
 \contentsline {subsection}{\numberline {3.3.2}Non Functional Requirements}{23}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}Hardware Requirements}{24}{section.3.4}
 \contentsline {section}{\numberline {3.5}Programming Language}{25}{section.3.5}
-\contentsline {section}{\numberline {3.6}Project Limitations and Changes to Existing Systems}{26}{section.3.6}
+\contentsline {section}{\numberline {3.6}Project Limitations}{26}{section.3.6}
+\contentsline {section}{\numberline {3.7}Changes to Existing Systems}{27}{section.3.7}
 \contentsline {chapter}{\numberline {4}Design}{29}{chapter.4}
 \contentsline {section}{\numberline {4.1}Data Design}{29}{section.4.1}
 \contentsline {section}{\numberline {4.2}Data Flow Diagram}{31}{section.4.2}

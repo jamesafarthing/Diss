@@ -22,23 +22,24 @@
 \BOOKMARK [2][-]{subsection.3.3.2}{Non Functional Requirements}{section.3.3}% 22
 \BOOKMARK [1][-]{section.3.4}{Hardware Requirements}{chapter.3}% 23
 \BOOKMARK [1][-]{section.3.5}{Programming Language}{chapter.3}% 24
-\BOOKMARK [1][-]{section.3.6}{Project Limitations and Changes to Existing Systems}{chapter.3}% 25
-\BOOKMARK [0][-]{chapter.4}{Design}{}% 26
-\BOOKMARK [1][-]{section.4.1}{Data Design}{chapter.4}% 27
-\BOOKMARK [1][-]{section.4.2}{Data Flow Diagram}{chapter.4}% 28
-\BOOKMARK [1][-]{section.4.3}{Architecture Design}{chapter.4}% 29
-\BOOKMARK [1][-]{section.4.4}{Interface Design}{chapter.4}% 30
-\BOOKMARK [2][-]{subsection.4.4.1}{Design Principles}{section.4.4}% 31
-\BOOKMARK [2][-]{subsection.4.4.2}{User Designs}{section.4.4}% 32
-\BOOKMARK [0][-]{chapter.5}{Implementation}{}% 33
-\BOOKMARK [1][-]{section.5.1}{Beginning the project}{chapter.5}% 34
-\BOOKMARK [1][-]{section.5.2}{Drag and Drop}{chapter.5}% 35
-\BOOKMARK [2][-]{subsection.5.2.1}{Original Colour System}{section.5.2}% 36
-\BOOKMARK [2][-]{subsection.5.2.2}{Dots System}{section.5.2}% 37
-\BOOKMARK [1][-]{section.5.3}{Data Structures}{chapter.5}% 38
-\BOOKMARK [1][-]{section.5.4}{Unification Algorithm}{chapter.5}% 39
-\BOOKMARK [1][-]{section.5.5}{Drawing and rendering algorithms}{chapter.5}% 40
-\BOOKMARK [1][-]{section.5.6}{Levels and how the Software was turned into a Game}{chapter.5}% 41
-\BOOKMARK [0][-]{chapter.6}{System Testing}{}% 42
-\BOOKMARK [0][-]{chapter.7}{Results}{}% 43
-\BOOKMARK [0][-]{chapter.8}{Conclusion}{}% 44
+\BOOKMARK [1][-]{section.3.6}{Project Limitations}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.7}{Changes to Existing Systems}{chapter.3}% 26
+\BOOKMARK [0][-]{chapter.4}{Design}{}% 27
+\BOOKMARK [1][-]{section.4.1}{Data Design}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.2}{Data Flow Diagram}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.3}{Architecture Design}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.4}{Interface Design}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.4.1}{Design Principles}{section.4.4}% 32
+\BOOKMARK [2][-]{subsection.4.4.2}{User Designs}{section.4.4}% 33
+\BOOKMARK [0][-]{chapter.5}{Implementation}{}% 34
+\BOOKMARK [1][-]{section.5.1}{Beginning the project}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.2}{Drag and Drop}{chapter.5}% 36
+\BOOKMARK [2][-]{subsection.5.2.1}{Original Colour System}{section.5.2}% 37
+\BOOKMARK [2][-]{subsection.5.2.2}{Dots System}{section.5.2}% 38
+\BOOKMARK [1][-]{section.5.3}{Data Structures}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.4}{Unification Algorithm}{chapter.5}% 40
+\BOOKMARK [1][-]{section.5.5}{Drawing and rendering algorithms}{chapter.5}% 41
+\BOOKMARK [1][-]{section.5.6}{Levels and how the Software was turned into a Game}{chapter.5}% 42
+\BOOKMARK [0][-]{chapter.6}{System Testing}{}% 43
+\BOOKMARK [0][-]{chapter.7}{Results}{}% 44
+\BOOKMARK [0][-]{chapter.8}{Conclusion}{}% 45
