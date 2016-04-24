@@ -1,7 +1,6 @@
 \documentclass[11pt,openright,a4paper]{report}
 \include{DissertationDefs}
-
-%\bibliographystyle{alpha}
+\setcounter{secnumdepth}{3}
 \usepackage{url}
 \usepackage{float}
 
@@ -16,11 +15,14 @@
 \fancyhf{}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
-%\graphicspath{{images/}{../images/}}
+\usepackage{pgf-pie}
+\usepackage{pgfplots}
  
 \usepackage{subfiles}
  
 \usepackage{blindtext}
+
+\include{javascript}
  
 \lhead{James Farthing}
 \rfoot{Page \thepage}
@@ -33,19 +35,19 @@
 	%\renewcommand{\footrulewidth}{0.4pt}% Line at the footer visible
 }
 
-\title{Using Gamification to Create an Educational Tool based on Natural Deduction Logic}
+\title{Using Gamification to Create an Educational Tool based on a Natural Deduction Proof System}
 \author{James Farthing}
 \date{Bachelor of Science in Computer Science and Mathematics with Honours\\The University of Bath\\April 2016}
  
 \begin{document}
  
-\declaration{Using Gamification to Create an Educational Tool based on Natural Deduction Logic}{James Farthing}
+\declaration{Using Gamification to Create an Educational Tool based on a Natural Deduction Proof System}{James Farthing}
 \newpage
 
 \abstract
-Your abstract should appear here.  An abstract is a short
-paragraph describing the aims of the project, what was
-achieved and what contributions it has made.
+
+This project explores how the Natural Deduction proof system is currently taught and how this system can be integrated into a game. Current literature is examined to find out what traits in games can be effective in an educational tool. This project aims to teach Natural Deduction using the principles of Gamification. This allows a user to learn in an alternate way to which they are used to. The author has created software in which Natural Deduction has been incorporated into a game. Feedback from the software has been gathered and positive results were achieved for the educational effectiveness of a Natural Deduction game.
+ 
 \newpage
 
 \maketitle
@@ -55,18 +57,26 @@ achieved and what contributions it has made.
  
 \chapter{Introduction}
 	\subfile{introduction}
-\chapter{Literature Review}
+\chapter{Literature Review} \label{lit}
 	\subfile{literaturereview}
-\chapter{Requirements Analysis and Requirements Specification}
+\chapter{Requirements Analysis and Specification}
 	\subfile{RequirementsAnalysisandRequirementsSpecification}
 \chapter{Design}
 	\subfile{design}
-\chapter{Implementation}
+\chapter{Implementation} \label{imp}
 	\subfile{implementation}
 \chapter{System Testing}
-\chapter{Results}
+	\subfile{testing}
+\chapter{Results} \label{results}
+	\subfile{results}
 \chapter{Conclusion}
+	\subfile{conclusion}
  
 \newpage
 \bibliography{fyprefs}
+
+\appendix
+\chapter{User Testing Results} \label{appA}
+	\subfile{usertesting}
+
 \end{document} 

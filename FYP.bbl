@@ -1,22 +1,72 @@
 \begin{thebibliography}{xx}
 
+\harvarditem[Aponte et~al.]{Aponte, Levieux \harvardand\
+  Natkin}{2009}{aponte2009scaling}
+Aponte, M.-V., Levieux, G. \harvardand\ Natkin, S.  \harvardyearleft
+  2009\harvardyearright , Scaling the level of difficulty in single player
+  video games, {\em in} `Entertainment Computing--ICEC 2009', Springer,
+  pp.~24--35.
+
 \harvarditem{Arthur}{2011}{arthur2011natural}
 Arthur, R.~T.  \harvardyearleft 2011\harvardyearright , {\em Natural Deduction:
   An introduction to logic with real arguments, a little history and some
   humour}, Broadview Press.
 
-\harvarditem[Chen et~al.]{Chen, Wei, Wu \harvardand\
-  Uden}{2009}{chen2009effects}
+\harvarditem{Bootstrap}{2016}{Boots82:online}
+Bootstrap  \harvardyearleft 2016\harvardyearright , `Bootstrap · the world's
+  most popular mobile-first and responsive front-end framework.',
+  \url{http://getbootstrap.com/}.
+\newblock (Accessed on 04/04/2016).
+
+\harvarditem[Broda et~al.]{Broda, Ma, Sinnadurai \harvardand\
+  Summers}{2007}{broda2007pandora}
+Broda, K., Ma, J., Sinnadurai, G. \harvardand\ Summers, A.  \harvardyearleft
+  2007\harvardyearright , `Pandora: A reasoning toolbox using natural deduction
+  style', {\em Logic Journal of IGPL} {\bf 15}(4),~293--304.
+
+\harvarditem{Chen, Wei, Wu \harvardand\ Uden}{2009}{chen2009effects}
 Chen, N.-S., Wei, C.-W., Wu, K.-T. \harvardand\ Uden, L.  \harvardyearleft
   2009\harvardyearright , `Effects of high level prompts and peer assessment on
   online learners’ reflection levels', {\em Computers \& Education} {\bf
   52}(2),~283--291.
+
+\harvarditem{Chen et~al.}{2009}{chen2009data}
+Chen, Y.-L. et~al.  \harvardyearleft 2009\harvardyearright , Data flow diagram,
+  {\em in} `Modeling and Analysis of Enterprise and Information Systems',
+  Springer, pp.~85--97.
+
+\harvarditem{Chung \harvardand\ do~Prado~Leite}{2009}{chung2009non}
+Chung, L. \harvardand\ do~Prado~Leite, J. C.~S.  \harvardyearleft
+  2009\harvardyearright , On non-functional requirements in software
+  engineering, {\em in} `Conceptual modeling: Foundations and applications',
+  Springer, pp.~363--379.
+
+\harvarditem{Collett}{2013}{Micro2:online}
+Collett, N. S. .~K.  \harvardyearleft 2013\harvardyearright , `Video games and
+  wellbeing',
+  \url{https://mindfulnessinschools.org/wp-content/uploads/2013/09/video-games-and-wellbeing.pdf}.
+\newblock (Accessed on 04/05/2016).
+
+\harvarditem{Crockford}{2001}{JavaS46:online}
+Crockford, D.  \harvardyearleft 2001\harvardyearright , `Javascript: The
+  world's most misunderstood programming language',
+  \url{http://www.crockford.com/javascript/javascript.html}.
+\newblock (Accessed on 04/05/2016).
+
+\harvarditem{Crockford}{2008}{crockford2008javascript}
+Crockford, D.  \harvardyearleft 2008\harvardyearright , {\em JavaScript: The
+  Good Parts: The Good Parts}, " O'Reilly Media, Inc.".
 
 \harvarditem[Dempsey et~al.]{Dempsey, Driscoll \harvardand\
   Swindell}{1993}{dempsey1993text}
 Dempsey, J.~V., Driscoll, M.~P. \harvardand\ Swindell, L.~K.  \harvardyearleft
   1993\harvardyearright , `Text-based feedback', {\em Interactive instruction
   and feedback} pp.~21--54.
+
+\harvarditem{Deveria}{2016}{CanIu61:online}
+Deveria, A.  \harvardyearleft 2016\harvardyearright , `Can i use... support
+  tables for html5, css3, etc', \url{http://caniuse.com/#feat=canvas}.
+\newblock (Accessed on 04/10/2016).
 
 \harvarditem[Garris et~al.]{Garris, Ahlers \harvardand\
   Driskell}{2002}{garris2002games}
@@ -37,14 +87,31 @@ Gentzen, G.  \harvardyearleft 1964\harvardyearright , `Investigations into
   288--306.
 \newline\harvardurl{http://www.jstor.org/stable/20009142}
 
+\harvarditem{Gonz{\'a}lez \harvardand\ Area}{2013}{gonzalez2013breaking}
+Gonz{\'a}lez, C. \harvardand\ Area, M.  \harvardyearleft 2013\harvardyearright
+  , Breaking the rules: Gamification of learning and educational materials,
+  {\em in} `Proceedings of the 2nd international workshop on interaction design
+  in educational environments', pp.~7--53.
+
 \harvarditem{Halbach}{2014}{LogicND}
 Halbach, V.  \harvardyearleft 2014\harvardyearright , `Introduction to logic:
   Natural deduction', \url
   {http://logicmanual.philosophy.ox.ac.uk/vorlesung/logic6p.pdf}.
 
+\harvarditem{Impact}{2016}{loadTest}
+Impact, L.  \harvardyearleft 2016\harvardyearright , `On demand load testing
+  for developers \& testers | load impact', \url{https://loadimpact.com/}.
+\newblock (Accessed on 04/10/2016).
+
 \harvarditem{Indrzejczak}{2016}{philNadDed}
 Indrzejczak, A.  \harvardyearleft 2016\harvardyearright , `Natural deduction',
   \url {http://www.iep.utm.edu/nat-ded/}.
+
+\harvarditem{Inflectra}{2015}{Softw57:online}
+Inflectra  \harvardyearleft 2015\harvardyearright , `Software testing
+  methodologies - learn the methods \& tools',
+  \url{https://www.inflectra.com/Ideas/Topic/Testing-Methodologies.aspx}.
+\newblock (Accessed on 04/04/2016).
 
 \harvarditem{Ja{\'s}kowski}{1934}{jaskowski1934rules}
 Ja{\'s}kowski, S.  \harvardyearleft 1934\harvardyearright , {\em On the rules
@@ -59,6 +126,12 @@ Koster, R.  \harvardyearleft 2013\harvardyearright , {\em Theory of fun for
 Laboreo, D.~C.  \harvardyearleft 2005\harvardyearright , `Introduction to
   natural deduction', \url
   {https://homepage.univie.ac.at/christian.damboeck/ps06/clemente_nat_ded.pdf}.
+
+\harvarditem{Litten}{2010}{Howt28:online}
+Litten, J.  \harvardyearleft 2010\harvardyearright , `How to drag and drop on
+  an html5 canvas',
+  \url{http://html5.litten.com/how-to-drag-and-drop-on-an-html5-canvas/}.
+\newblock (Accessed on 04/05/2016).
 
 \harvarditem{McDonald \harvardand\ Hull}{2012}{mcdonald2012different}
 McDonald, M. \harvardand\ Hull, C.  \harvardyearleft 2012\harvardyearright ,
@@ -80,6 +153,11 @@ Muntean, C.~I.  \harvardyearleft 2011\harvardyearright , Raising engagement in
 \harvarditem{{\em MyMaths Website}}{2016}{mymaths}
 {\em MyMaths Website}  \harvardyearleft 2016\harvardyearright , \url
   {http://www.mymaths.co.uk/}.
+
+\harvarditem{Nixon}{2012}{nixon2012learning}
+Nixon, R.  \harvardyearleft 2012\harvardyearright , {\em Learning PHP, MySQL,
+  JavaScript, and CSS: A step-by-step guide to creating dynamic websites}, "
+  O'Reilly Media, Inc.".
 
 \harvarditem{nptelhrd}{2015}{natdeclecture}
 nptelhrd  \harvardyearleft 2015\harvardyearright , `Mod-01 lec-42 natural
@@ -114,6 +192,15 @@ Pritchard, A.  \harvardyearleft 2013\harvardyearright , {\em Ways of learning:
 Sims, Z. \harvardand\ Bubinski, C.  \harvardyearleft 2013\harvardyearright ,
   `Codecademy website', \url {https://www.codecademy.com/}.
 
+\harvarditem{Smith}{2010}{Proof67:online}
+Smith, P.  \harvardyearleft 2010\harvardyearright , `Proof systems',
+  \url{http://www.logicmatters.net/resources/pdfs/ProofSystems.pdf}.
+\newblock (Accessed on 17/02/2016).
+
+\harvarditem{Spolsky}{2001}{spolsky2001user}
+Spolsky, J.  \harvardyearleft 2001\harvardyearright , {\em User interface
+  design for programmers}, Apress.
+
 \harvarditem[Suhonen et~al.]{Suhonen, V\"{a}\"{a}t\"{a}j\"{a}, Virtanen
   \harvardand\ Raisamo}{2008}{Suhonen:2008:SFE}
 Suhonen, K., V\"{a}\"{a}t\"{a}j\"{a}, H., Virtanen, T. \harvardand\ Raisamo, R.
@@ -128,9 +215,32 @@ Sutcliffe, G.  \harvardyearleft 2009\harvardyearright , `{The TPTP Problem
   Library and Associated Infrastructure: The FOF and CNF Parts, v3.5.0}', {\em
   Journal of Automated Reasoning} {\bf 43}(4),~337--362.
 
+\harvarditem{TSUKADA}{2001}{tsukada2001proof}
+TSUKADA, M.  \harvardyearleft 2001\harvardyearright , `Proof checking using
+  prolog', {\em Institute for Mathematical Sciences Kokyu proceedings} {\bf
+  1186},~78--83.
+
 \harvarditem{UKIE}{2014}{gamesresearch}
 UKIE  \harvardyearleft 2014\harvardyearright , `The games industry in numbers',
   \url {http://ukie.org.uk/research}.
+
+\harvarditem{Van~Dalen}{1986}{van1986intuitionistic}
+Van~Dalen, D.  \harvardyearleft 1986\harvardyearright , Intuitionistic logic,
+  {\em in} `Handbook of philosophical logic', Springer, pp.~225--339.
+
+\harvarditem{Vogel}{2009}{Intro19:online}
+Vogel, L.  \harvardyearleft 2009\harvardyearright , `Introduction to java web
+  development - tutorial',
+  \url{http://www.vogella.com/tutorials/JavaWebTerminology/article.html}.
+\newblock (Accessed on 04/05/2016).
+
+\harvarditem{Wiegers \harvardand\ Beatty}{2013}{wiegers2013software}
+Wiegers, K. \harvardand\ Beatty, J.  \harvardyearleft 2013\harvardyearright ,
+  {\em Software requirements}, Pearson Education.
+
+\harvarditem{Wood}{1997}{wood1997user}
+Wood, L.~E.  \harvardyearleft 1997\harvardyearright , {\em User interface
+  design: Bridging the gap from user requirements to design}, CRC Press.
 
 \harvarditem[Wu et~al.]{Wu, Hwang, Milrad, Ke \harvardand\
   Huang}{2012}{wu2012innovative}

@@ -1,176 +1,175 @@
 %RequirementsAnalysisandRequirementsSpecification
 \documentclass[FYP.tex]{subfiles}
-\section{Target Audience}
+\section{Target Audience} \label{section:ta}
 
-It is important to recoginise that the difficulty of game that will be produced will depend on what audience the game will be targeted at. A game for academics or for university students would have to be far more technical and complete in Natural Deduction theory for solving mathematical proofs than a game which would be made for primary school children, for example.
+It is important to recognise that the difficulty of game that will be produced will depend on what audience the game will be targeted at. A game for academics or for postgraduate students would have to be far more technical and complete in Natural Deduction theory for solving mathematical proofs than a game which would be made for undergraduate students or secondary school children, for example.
 
-When deciding on what would be the suitable age group for the educational game, considering the age that someone would learn Natural Deduction logic highly infuenced the process of picking the target audience. Whist most people are not aware of Natural Deduction before 18 years of age during Secondary Education, most people are introduced to First Order Logic and Natural Deduction theory during an Undergraduate Degree.
+When deciding on what would be the suitable age group for the educational game, considering the age that someone would learn Natural Deduction logic highly influenced the process of picking the target audience. Whist most people are not aware of Natural Deduction before 18 years of age during Secondary Education, most people that are introduced to First Order Logic and Natural Deduction proof systems are taught about it during an Undergraduate Mathematics or Computer Science Degree. Other Students from other degree programmes are unlikely to learn the concept of Natural Deduction and therefore would also be suitable to play this game.
 
-A game that introduces you to Natural Deduction concepts at a stage in life before you learn it formally in education seemed like the most favourable option as this Sixth Form/Collage (16-18 years old) age is the age that a different style of learning may be most beneficial. At this age, education is delivered traditionally in a School environment which can be very different to University education. At University, you get taught the basics but you have to research the concepts in further detail and try examples for yourself, whereas in School, this is all given to you during lessons.
+A game that introduces Natural Deduction concepts at a stage in life around the time you learn it formally in education seemed like the most favourable option. The Sixth Form/Collage and Undergraduate University age (16-21) is the age that a different style of learning may be most beneficial. Coming from a different point of view and using different techniques may be effective for some students. This project would be targeting people with A Level knowledge of Mathematics and some going on to study university mathematics, but all with a mathematical background. 
 
-A tool that tries to bridge this gap by giving you basic examples of the Natural Deduction theory should help in making practise easier and therefore helps you to to learn quicker. This game will provide a more entertaining way to learn than traditional methods of learning. This target age group of around 18 years old spends more time on computers and mobile devices than previous generations, *****CITE HERE***** so using computers and gamification to help students learn could be very effective, as on computers is where a lot of time is spent currently. 
+At Sixth Form age, education is delivered traditionally in a School environment which can be very different to University education. At University, the basics get taught but students have to research the concepts in further detail and try examples independently. This is why this game could also be useful for University students where they can practise the logic concepts and become familiar with Natural Deduction by using the game.
 
-\section{Project Goals and Targets}
+A tool that tries to bridge this gap by giving you basic examples of Intuitionistic logic using the Natural Deduction proof system should help in making practise easier and therefore helps you to to learn quicker. This game will provide a more entertaining way to learn than traditional methods of learning. This target age group of around 16-21 years old spends a lot of time on computers and mobile devices. A 5-15 year old spends an average of 8.7 hours a week gaming, \cite{Micro2:online} so using computers and gamification to help students learn could be very effective, as on computers is where a lot of time is spent currently. 
+
+\section{Project Goals and Targets} \label{goals}
 
 When undertaking this project, the time researching literature associated with this topic has shown there are a number of things that this project must broadly achieve in order for it to be successful. Without a number of the following being met, the project will not be effective for the purpose it has been created for. Delivering the majority of these goals however, will ensure a project which displays ingenuity and has real use and value to the target audience. The goals and targets of the project are set out below:  
 
 \begin{itemize}
-\item{Create a new piece of software which successfully integrates Natural Deduction theory and gamification concepts.}
+\item{Create a new piece of software which successfully integrates Natural Deduction proof system and gamification concepts.}
 \item{Give users an engaging experience where they benefit educationally.}
 \item{Support users and give them help and advice when stuck in the game.}
-\item{Make the software accessable so no prior knowledge of Natural Deduction is known.}
-\item{Use proper Natural Deduction notation so users can effectively transfer knowledge learnt in the game to the acedemic environment.}  
+\item{Make the software accessible so little prior knowledge of Natural Deduction is known.}
+\item{Use proper logical notation so users can effectively transfer knowledge learnt in the game to the academic environment.}  
 \item{Deliver a usable software project on or before 29th April 2016.}
-\item{Use Kinestetic Learning techniques to benefit users who learn in this style.}
+\item{Use Kinaesthetic Learning techniques to benefit users who learn in this style.}
 \item{Take current attributes in educational games to make sure my project encapsulates qualities of what makes games effective learning tools.}
+\item{Make users feel more confident and capable with the Natural Deduction proof system as a result of playing the game.}
 \end{itemize}
 
 \section{Software Requirements}
 
-Effective requirements set before implementation of software leads to a focused design process and a structured framework. There are functional requirements which is what the software should do and non-functional requirements which describes how the system is expected to work. Within the functional requirements there are Gaming Elements. These are specific functional requirements that will make my software play like a game, rather than just a drag and drop tool.
+Effective requirements set before implementation of software leads to a focused design process and a structured framework. There are functional requirements which is what the software should do \cite{wiegers2013software} and non-functional requirements which describes how the system is expected to work. \cite{chung2009non} Within the functional requirements there are Gaming Elements. These are specific functional requirements that will make my software play like a game, rather than just a drag and drop tool.
 
-\subsection{Functional Requirements}
+\subsection{Functional Requirements} \label{ssection:fun}
 
-\begin{itemize}
-\item{Provide an intuitive drag and drop interface.}
-	\begin{itemize}
-	\item{Making it clear what to do and how to do it. Making sure that the user knows how they can drag and drop items. An algorithm will have to be implemented where users can drag and drop onto certain elements of a proof. This could be that a user can drop onto a certain area of a proof, or could drop onto particular elements of a proof. This will need to be investigated in the design of the program.} 
-	\end{itemize}
-\item{Making all elements of the game drag and drop.}
-	\begin{itemize}
-	\item{This would mean no part of the game would need to be controlled by the keyboard. Everything being able to be dragged and dropped makes it nicer to use.} 
-	\end{itemize}
-\item{Have proofs rendered nicely so they fit on the screen.}
-	\begin{itemize}
-	\item{Proof trees can get very big so this would be a way of nicely scaling proofs on screen so a user can easily tell what the proof is. This will have a function that will render the proof tree.}
-	\end{itemize}
-\item{Allowing the user to experiement with proofs and possibly create their own levels.}
-	\begin{itemize}
-	\item{Creating a flexible system that can be expanded upon is important for future development of the system.}
-	\end{itemize}
-\item{An algorithm or a system that can successfully recognise whether a solution to a proof is correct.}
-	\begin{itemize}
-	\item{In an ideal world an algorithm would be automatically be able to determine whether a solution to a problem is a correct solution. If this is not feasible during the time period then a hardcoded system should implemented.}
-	\end{itemize}
-\end{itemize}
+\subsubsection{Provide an intuitive drag and drop interface} \label{ssection:fun1}
 
-%\subsubsection{What the system is supposed to achieve}
-\subsubsection{Gaming Elements}
+Making it clear what to do and how to do it. Making sure that the user knows how they can drag and drop items. An algorithm will have to be implemented where users can drag and drop onto certain elements of a proof. This could be that a user can drop onto a certain area of a proof, or could drop onto particular elements of a proof. This will need to be investigated in the design of the program.
 
-\begin{itemize}
-\item{Provide hints and tips for the user.}
-	\begin{itemize}
-	\item{Hints and tips enhance a user experience as if they get stuck, then hints and tips will prevent them from giving up.}
-	\end{itemize}
-\item{Have levels that will increase in difficulty and guide the user through the learning process.}
-	\begin{itemize}
-	\item{A gradual build up in difficulty can guide a user through the game and keep them entertained. The process of a user being able to progress through the levels is an important gaming element that this project should implement.}
-	\end{itemize}
-\item{Create a reward, scoring or recoginition system for users to tell how they are doing.}
-	\begin{itemize}
-	\item{This could be the form of a score counter, letting the user how many levels the user has got correct, or could be as simple as just letting the user know whether that individual level is correct or not.}
-	\end{itemize}
-\item{It should be more fun that learning Natural Deduction logic in a traditional way.}
-	\begin{itemize}
-	\item{The key factor for this game to be successful is that users can learn the required material in a more entertaining and lighthearted way than they would learn it in an educational environment.}
-	\end{itemize}
-\end{itemize} 
+\subsubsection{Making all elements of the game drag and drop}  \label{ssection:fun2}
+
+This would mean no part of the game would need to be controlled by the keyboard. Everything being able to be dragged and dropped makes it nicer to use.
+
+\subsubsection{Have proofs rendered nicely so they fit on the screen}  \label{ssection:fun3}
+
+Proof trees can get very big so this would be a way of nicely scaling proofs on screen so a user can easily tell what the proof is. This will have a function that will render the proof tree.
+
+\subsubsection{Allowing the user to experiment with proofs and possibly create their own levels}  \label{ssection:fun4}
+
+Creating a flexible system that can be expanded upon is important for future development of the system.
+
+\subsubsection{An algorithm or a system that can successfully recognise whether a solution to a proof is correct}  \label{ssection:fun5}
+
+In an ideal world an algorithm would be automatically be able to determine whether a solution to a problem is a correct solution. If this is not feasible during the time period then a hard-coded system should implemented.
+
+\subsubsection*{Gaming Elements}
+
+
+\subsubsection{Provide hints and tips for the user}  \label{ssection:fun6}
+
+Hints and tips enhance a user experience as if they get stuck, then hints and tips will prevent them from giving up. At least 75\% of the people that used the hints should find them effective and that they made a difference. 
 	
+\subsubsection{Have levels that will increase in difficulty and guide the user through the learning process}  \label{ssection:fun7}
+	
+A gradual build up in difficulty can guide a user through the game and keep them entertained and challenged. The process of a user being able to progress through the levels is an important gaming element that this project should implement.
+	
+\subsubsection{Create a reward, scoring or recognition system for users to tell how they are doing}  \label{ssection:fun8}
+	
+This could be the form of a score counter, letting the user know how many levels the user has got correct, or could be as simple as just letting the user know whether that individual level is correct or not.
+	
+\subsubsection{It should be more fun than learning Natural Deduction logic in a traditional way}  \label{ssection:fun9}
+	
+The key factor for this game to be successful is that users can learn the required material in a more entertaining and engaging way than they would learn it in an educational environment. Expectations are that 75\% of users should find this game fun to play.
+It is also expected that 75\% of users should prefer learning through this game compared to learning in a tradtional way like pen and paper.
 
 %Name, Brief summary, Rationale 
 
 \subsection{Non Functional Requirements}
 
-\begin{itemize}
-\item{Testing must be undertaken to make sure the software is working as desired.}
+\subsubsection{Testing must be undertaken to make sure the software is working as desired.}  \label{ssection:nfun1}
 	\begin{itemize}
 	\item{Continuous testing must be done by the programmer to make sure that the code is continuing to react as expected and there are no obvious bugs present.}
  	\item{User testing must be completed before the end of the project to get feedback on improvements to the system.}
 	\item{Some unit testing should be completed to check that the code is solid and nothing unusual should take place when in use.}
 	\end{itemize}
-\item{The system must react consistently with 100\% reliability.}
+\subsubsection{The system must react consistently with 100\% reliability.}  \label{ssection:nfun2}
 	\begin{itemize}
 	\item{Every time elements are dragged and dropped, the system must react the same so everything happens as expected.}
 	\item{Algorithms in place are reliable and executed as expected every time.}
 	\end{itemize}
-\item{The system must be secure.}
+\subsubsection{The system must be robust and secure.}  \label{ssection:nfun3}
 	\begin{itemize}
-	\item{The system must be able to cope and should not be able to be changed permernantly by outside influences.}
+	\item{The system must be able to cope and should not be able to be changed permanently by anyone.}
 	\end{itemize}
-\item{The code should be witten in a way which is easy to maintain.}
+\subsubsection{The code should be written in a way which is easy to maintain.}  \label{ssection:nfun4}
 	\begin{itemize}
 	\item{The code should be written in small functions which can easily be read by other developers.}
 	\item{The code should be sufficiently commented so that other developers can easily understand what is happening in the algorithms.}
-	\item{All function and variable names should be sensibily named so that other developers can easily grasp the gist of the code.}
+	\item{All function and variable names should be sensibly named so that other developers can easily grasp the gist of the code.}
 	\end{itemize}
-\item{The program must be written in a way in which it could be scaled in the future.}
+\subsubsection{The program must be written in a way in which it could be scaled up in the future.}  \label{ssection:nfun5}
 	\begin{itemize}
 	\item{The code must be written in such as way that it could be expanded on in future. This can be achieved with a clear layout of the code, where the maintainability requirement is also achieved with similar approach to how the code is written.}
-	\item{The software will be open source to allow for the continual development of the platform}
+	\item{The software will be open source to allow for the continual development of the platform.}
 	\end{itemize} 
-\end{itemize}
+\subsubsection{The user should feel like they have a better understanding of Natural Deduction on completion of the game.}  \label{ssection:nfun6}
+	\begin{itemize}
+	\item{The goal should be to have at least 75\% of people who do not know about Natural Deduction prior to the game to have a better understanding.}
+	\item{Another goal that at least 80\% of users feel more comfortable with Natural Deduction proof systems following finishing the game.} 
+	\end{itemize}
 
-Scalibility
-Usablity
-
-How the system is supposed to be.
 
 \section{Hardware Requirements}
 
-All software projects require hardware for them to run on. It is important to outline what the capibilities of the software should be so it can run on the correct hardware.  
+All software projects require hardware for them to run on. It is important to outline what the capabilities of the software should be so it can run on the correct hardware.  
 
-\begin{itemize}
-\item{All code should run by the client.}
+
+\subsubsection{All code should run by the client.} \label{ssection:hard1}
 	\begin{itemize}
 	\item{Using a language which uses client side increases the speed of load times, reduces the reliance of a server.}
-	\item{By deciding to run the code client side, it is important that the code is not too computationally demanding so that it runs on a variety of architecures.}
+	\item{By deciding to run the code client side, it is important that the code is not too computationally demanding so that it runs on a variety of architectures.}
 	\end{itemize}
-\item{The software should be able to run on a web browser and on a variety of browsers.}
+\subsubsection{The software should be able to run on a variety of browsers.} \label{ssection:hard2}
 	\begin{itemize}
-	\item{The language chosen should be able to easily intergrate into a web browser.}
+	\item{The language chosen must be picked so that it can be easily integrated with web development.}
 	\item{It must be able to work on a variety of web browsers so that the software is available to use by a wide range of users across different platforms.}
+	\item{The code must work on different architectures and different operating systems.}
 	\end{itemize}
-\item{The software should run comfortably on a PC or Laptop and be played with a mouse.}
+\subsubsection{The software should run comfortably on a PC or Laptop and be played with a mouse.} \label{ssection:hard3}
 	\begin{itemize}
-	\item{This software project is designed for use on a PC or Laptop. It shouldn't neccesarily be made to work on mobiles or tablets with a touchscreen due to time restrictions.}
+	\item{This software project is designed for use on a PC or Laptop. It shouldn't necessarily be made to work on mobiles or tablets with a touchscreen due to time restrictions.}
 	\end{itemize} 
-\end{itemize} 
 
-\section{Programming Language}
+
+\section{Programming Language} \label{section:proglang}
 
 When considering the structure of this project, thought needs to put in about the format of the game, how the game would be accessed and played. These factors directly influence what language should be used to write the software, as different programming languages have different strengths. The Software and Hardware requirements also needed to be given thought to assess which language would be most suitable.
 
-Initially Java was considered for the development of the project. Java is an object orientated language which would be important in this project for creating proof trees. Java is the language where I have had most experience and so therefore seemed a good choice. A major disadvantage of Java was that it did not lend itself nicely for in-browser development which therefore could lead to problems when it was time to test the software and distribute the game to users.
+Initially Java was considered for the development of the project. Java is an object orientated language which would be an important feature in this project for creating proof trees. Java is the language where I have had most experience and so therefore seemed a good choice. A major disadvantage of Java was that it does not lend itself nicely for in-browser development which therefore could lead to problems when it was time to test the software and distribute the game to users. Using Java means the a web application would have to be created on a dedicated server which runs the program. \cite{Intro19:online} This is something that this project was aiming to avoid.
 
-Considering accessability requirements and sofware requirements, a browser based game was decided on early in the process. This led me to a choice where the project could either be created in a language that is native to being online, or create it in a different language and then allow a user to download and install the game. Because the project would be quite lightweight, with no need for external databases or dealing with large amounts of data, it was decided that a game that could be played in the browser would be the easiest way to move forward.
+Considering accessibility requirements and software requirements, a browser based game was decided on early in the process. This led me to a choice where the project could either be created in a language that is native to being online, or create it in a different language and then allow a user to download and install the game.The application would be quite lightweight and as such there is no need for external databases or dealing with large amounts of data. It was therefore decided that a game that could be played in the browser would be the easiest way to move forward.
 
-Javascript and PHP are both widely used for website development. Javascript and PHP both have their advantages and disadvantages and personal preference was the main reason Javascript was picked for this project. PHP also makes it easy for quick web developement so would have been another sensible choice. PHP however is used more for server side programming, something that was felt that this project did not require. To keep this project as simple as possible for both the programmer and the user, server side programming was avoided. There is nothing in this project that would actively need the processing power of an external server, and everything that is created in this project should be able to run on the host's computer, as it is not very demanding.
+Javascript and PHP are both widely used for website development. Javascript and PHP both have their advantages and disadvantages and personal preference was the main reason Javascript was picked for this project. PHP also makes it easy for quick web development so would have been another sensible choice. PHP however is used more for server side programming, something that was felt that this project did not require. \cite{nixon2012learning} To keep this project as simple as possible for both the programmer and the user, server side programming was avoided. There is nothing in this project that would actively need the processing power of an external server, and everything that is created in this project should be able to run on the host's computer, as it is not very demanding.
 
-****FUNCTIONAL PROGRAMMING LANGUAGE*****
+%****FUNCTIONAL PROGRAMMING LANGUAGE*****
 
-I settled on a HTML 5 canvas for the playing area and Javascript for the majority of the logic. Javascript seemed a sensible option because of the way it runs Javascript is an interpreted language which is suitable for in-browser execution, unlike Java.
+Due to the mathematical nature of the project, the logical programming language Prolog was also considered. Whilst this would not naturally lend itself to web development, it would be a strong contender for the best language to code the mathematical logic of the project in. Research into proof checking using prolog exists meaning it is a suitable language for proof verification. \cite{tsukada2001proof} This would be the logic of the game could be verified by Prolog for a back end and another language would need to display this on the front end. The main reason that Prolog wasn't chosen was that it would add significant complication to the project. Most of the logic concepts to be used in this project are fundamentals and Javascript could be used to verify these proofs.  
 
-It is fast and has small overheads because it is a client-side programming language. It doesn't need to contact a server so there is little latency, meaning that any code can be executed straightaway. Another reason that Javascript was chosen was because of its ease to learn and simplicity. There is lots of documentation and tutorials available online and this makes Javascript accessable to new web developers.
+I settled on a HTML 5 canvas for the playing area and Javascript for the majority of the logic. Javascript seemed a sensible option because of the way it runs. Javascript is an interpreted language which is suitable for in-browser execution, unlike Java.
 
-The fact that Javascript can be easily integrated with HTML was another big reason that it was picked for the project. A HTML 5 canvas was the easiest way to get a drag and drop interface working and made it easy to show a user which area is clickable. The logic is implemented by Javascript with the HTML canvas being the area that the user sees on the front end. Using these two languages together makes it easy to publish a web page, with no servers running continously storing data. All that is needed is a website host.
+It is fast and has small overheads because it is a client-side programming language. It doesn't need to contact a server so there is little latency, meaning that any code can be executed straight away. Another reason that Javascript was chosen was because of its ease to learn and simplicity. There is lots of documentation and tutorials available online and this makes Javascript accessible to new web developers. \cite{crockford2008javascript}
 
-Javascript is generally accepted as an object orientated programming language, where objects can contain other objects. *** CITE HERE **** http://www.crockford.com/javascript/javascript.html This is important with the data structure of the project, where a tree structure needs to be implemented to correctly draw natural deduction proofs. By having a structure where objects can be placed within objects, this tree structure can be achieved. 
+The fact that Javascript can be easily integrated with HTML was another big reason that it was picked for the project. A HTML 5 canvas was the easiest way to get a drag and drop interface working and made it easy to show a user which area is clickable. The logic is implemented by Javascript with the HTML canvas being the area that the user sees on the front end. Using these two languages together makes it easy to publish a web page, with no servers running continuously storing data. All that is needed is a website host.
+
+Javascript is generally accepted as an object orientated programming language, where objects can contain other objects. \cite{JavaS46:online} This is important with the data structure of the project, where a tree structure needs to be implemented to correctly draw natural deduction proofs. By having a structure where objects can be placed within objects, this tree structure can be achieved. 
 
 \section{Project Limitations}
 
 Completing the core requirements for the project are an absolute minimum its success. There will be room for further improvement that will be outside the scope of this project.   
 
-Due to the limitations of web based development, storing information to file would need to be done on the server side. As this project is client side, no information will be able to be stored. This project does not plan to use a database to store information so users will not be able save levels for future use. Levels could still be created by users and then the data structures could be emailed so they could then be encorporated into the project. An idea could be for a user to press a button to submit an proof suggestion.
+Due to the limitations of web based development, storing information to file would need to be done on the server side. As this project is client side, no information will be able to be stored. This project does not plan to use a database to store information so users will not be able save levels for future use. Levels could still be created by users and then the data structures could be emailed so they could then be incorporated into the project. An idea could be for a user to press a button to submit an proof suggestion.
 
-Another limitation of the project is that there will only be a finite set of things that the project can do. Whilst the basic elements of conjunction, implication and negation should be implemented, it may be more chalenging to implement other operators that work in a different way. By getting at least the basics of Natural Deduction in there and working correctly, it will still be a functioning and valuable learning resource for an introduction to Natural Deduction. Designing the code with scalibility in mind will make sure that more complicated operators can be added in later versions of the software.
+Another limitation of the software is that there will only be a finite set of things that the project can do. Whilst the basic elements of conjunction, implication and negation should be implemented, it may be more challenging to implement other operators that work in a different way. By getting at least the basics of Natural Deduction in there and working correctly, it will still be a functioning and valuable learning resource for an introduction to Natural Deduction. Designing the code with scalability in mind will make sure that more complicated operators can be added in later versions of the software.
 
 \section{Changes to Existing Systems}
 
-Of the limited other systems that are currently in existance, it is important to recognise what are their strengths and what should be improved upon. Pandora is "a tool for supporting the learning of first order natural deduction". ****CITE HERE**** It does a number of things successfully that this project would like to take on board. It has a series of exercises which users can work through which is what this project is aiming to create in the form of levels in a game. Pandora successfully teaches the user by increasing the difficulty of levels and giving hints and pointers as the user works their way through the game. Hints and tips is an important feature in the learning process so implementing this correctly and taking inspiration from Pandora will be useful in sculpting this project.
+Of the number of other systems that are currently in existence, it is important to recognise what are their strengths and what should be improved upon. Pandora is "a tool for supporting the learning of first order natural deduction".\cite{broda2007pandora} It does a number of things successfully that this project would like to take on board. It has a series of exercises which users can work through which is what this project is aiming to create in the form of levels in a game. Pandora successfully teaches the user by increasing the difficulty of levels and giving hints and pointers as the user works their way through the game. Hints and tips is an important feature in the learning process so implementing this correctly and taking inspiration from Pandora will be useful in sculpting this project.
 
 The main thing that will be done differently in this project will be the style of the proofs and how they are laid out. In Pandora, proofs are displayed using the Fitch notation. This is a series of lines where each one displays the next line of the proof. Whilst this notation is perfectly valid, in British Universities Natural Deduction and other logic systems are traditionally taught using the tree structures where all premises are above the line and the conclusion is below the line. Conclusions can also be premises for other logical statements and this is how the tree like structure is built.
 
-Panda is an alternative current natural deuction tool that currently implements a tree structure. This is what this project does successfully well. ***CITE HERE*** This software displays the proofs graphically in a way I would like to replicate. Panda has a number of buttons for introducing a variety of different rules. This is also a nice way to do things and the user can easily understnad what is happening.
+Panda is an alternative current Natural Deduction tool that currently implements a tree structure. This is what this project does successfully well. \cite{gasquet2011panda} This software displays the proofs graphically in a way I would like to replicate. Panda has a number of buttons for introducing a variety of different rules. This is also a nice way to do things and the user can easily understand what is happening.
 
 One thing that this project will aim to do that Panda does not do is make the complete interface drag and drop. Using Panda, there is still a fair bit of typing that needs to be done, which could be perceived as a bit clunky as the user needs to switch between the keyboard and mouse to undertake the tasks. If this software is created so it is all click and drag, it not only makes the process of playing smoother, it could be easily created for other devices like touchscreens in future development iterations.
 

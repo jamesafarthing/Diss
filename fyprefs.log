@@ -1,0 +1,14 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdftex 2015.10.21)  4 APR 2016 13:59
+entering extended mode
+**C:/Users/James/Desktop/Diss/fyprefs.bib
+(C:/Users/James/Desktop/Diss/fyprefs.bib
+! Undefined control sequence.
+l.1 \begin
+          {thebibliography}{9}
+? 
+! Emergency stop.
+l.1 \begin
+          {thebibliography}{9}
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!

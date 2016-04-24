@@ -1,15 +1,49 @@
 \documentclass[FYP.tex]{subfiles}
  
 \begin{document}
-\textbf{Hello world!}
- 
-%\begin{figure}[bh]
-%\centering
-%\includegraphics[width=4cm]{lion-logo}
- 
-%\label{fig:img1}
-%\caption{ShareLaTeX learn logo}
-%\end{figure}
- 
-Hello, here is some text without a meaning.  This... 
+
+Natural Deduction is a logical proof system that has been in existence over 80 years, founded by Gerhard Gentzen, and has been a staple in the teaching of Mathematical Logic for the last half century. Natural Deduction is a proof system which is made up of basic logical rules with the goal of proving that some reasoning is correct. \cite{intro} Natural Deduction is commonplace in current undergraduate degrees in Mathematics and Computer Science. Teaching logic has traditionally been delivered in a formal format such as a lecture or a classroom session but other ways of teaching can also be effective. The advancement of technology over the last 20 years offers alternative teaching options. The increased usage of computers has led to a greater number of resources accessed via the internet that are available to learn from. Methods of teaching using a computer can be utilised to provide more varied ways of learning.  
+
+In this project an educational game will be created for Natural Deduction. The software will be tested on users to see if it would be useful for learning. This project investigates Natural Deduction in an educational environment and aims to help bridge the gap between teaching Natural Deduction and playing games. The software created in this project explores techniques that can be used in games to teach users. It also puts the Natural Deduction proof system in a more accessible and engaging environment than traditional learning. The vision for this project is to take Natural Deduction and try to make it easier for older secondary school and university students to understand. The literature explores whether gamification is an effective way of doing this. The overarching aim is to engage students in a new and different way. 
+
+One motivation for this project is the author's interest in gaming and how principles from games can be applied to an educational context to help students and other interested individuals to learn. Literature discussed in Sections \ref{lit:gam} and \ref{lit:edu} suggests that games can be used to help people learn new concepts. This provides evidence that using educational concepts in games can be effective. 
+
+Games are popular in the everyday life of young people (16-21 year olds), which is the age group this project is aimed at. Mobile phones, tablets and computers are all capable of playing games which people play on a daily basis. Creating a game to be played on a digital format such as a computer means the game will be easily accessible to users. It will also be located on a platform which the majority of the target audience are familiar with. 
+
+Gamification is the process of taking a task that is not usually associated with gaming and turning it into a game. Gamification is already used in a variety of situations such as in Industry and Marketing sectors. These are described further in Section \ref{lit:gam}. Gamification principles will turn the task of teaching Natural Deduction into a game. Using motivational gaming elements in this software such as hints and instant feedback (Section \ref{advan}) will provide a different and more entertaining Natural Deduction learning resource. 
+
+Some existing software already effectively uses gamification and replicating their best features will help deliver a quality project. Current educational games offer in-game rewards and a number of different levels of increasing difficulty. Integrating these elements into this software will be necessary to make it effective.
+
+People in education benefit from different learning styles. Not every child learns in the same way so using unconventional methods such as games to help people learn may be effective for some pupils. This project aims to create software that users feel has benefited them educationally, whilst still enjoying themselves. Gamification for Education is built on the premise that the concept of a game motivates users to play. Researching key educational principles that need to be included in such a game is an important step to make sure the game teaches users as well as letting them have fun.How Gamification can be used for education and an explanation of learning techniques is detailed in Section \ref{lit:edu}. 
+
+
+What makes this project unique is its approach to teaching Natural Deduction. The software uses Intuitionistic Logic which is natural to understand and easy to learn.
+
+Logic is rearranging arguments in a way which we desire. Mathematical logic represents this in a formal way. Assumptions are made and from these conclusions are drawn, creating a rule. These rules are represented in a tree structure where assumptions are on the top and the conclusions on the bottom. Rules can be combined so that conclusion from one rule can become the new assumption for the next rule. This builds up the tree structure. 
+
+In this project, the user will create this tree structure and input all of the rules needed to create the proof. Representing in a tree format teaches the user not only how to form Natural Deduction proofs in the Gentzen style but also learning about intuitionistic logic. Common rules that exist for intuitionistic logic are ``and", ``or" and ``implies" and they work in a way which you would expect. Using these rules and helping to teach them in a mathematical context is central to this project as it allows the user to learn the logic system whilst using Natural Deduction proof system to create the proofs. 
+
+%Goals
+
+Once literature has been examined, the system development life cycle needs to be implemented to create a successful piece of software. This starts with the analysis gathering and the requirements setting. Whilst this project doesn't have a customer in the traditional sense, a target audience is specified in Section \ref{section:ta} for where this project is positioned in the wider scope of educational games. The student target audience will make sure that the game is helpful and has a genuine use.
+
+The goal setting process also needs to carefully contemplated. Frequently in software products, the end user can give you detailed requirements for what they want delivered. This project is more of an investigative process in whether the software created can be useful in the future. Targets and requirements need to be formulated from the literature, drawing on the experience of similar educational games (Section \ref{lit:egames}) and from other key features examined in Section \ref{lit:gam}.
+
+%Design
+
+All of these requirements need to be present in the design of the system. The design should take all of these required features into account. Section \ref{des:data} explains how data in the software will be stored and how it will be used in the game. The flow of how data moves round the game is also displayed, designing the groundwork in how the program will function. The architecture is then discussed at a high level in Section \ref{des:arch}. The main functions are focused on and how each function links to achieving the requirements. Designing the interface is also an important step for any project which needs a user interface. Designing how the program will look and how users will interact with it is a key part of the design. Interface designs are shown in Section \ref{des:UI}. 
+
+%Implementation
+
+Next, the process of how the project was developed and the reason why certain decisions were chosen is outlined. The implementation of the project describes key features included in the game.  Also explained is some of the changes made throughout the software development process and explanations for the change of direction for elements of the game. Parts mentioned include how the drag and drop works, how the data is represented and how proofs are rendered on the screen. Implementation details can be found in Chapter \ref{imp}.
+
+%Results
+
+The investigation in this project is finding out whether this software has the potential and is effective in teaching users about Natural Deduction through the medium of a game. A user survey was distributed to test an Alpha version of the software. Feedback was encouraging and suggests that further time should be invested in the project to make small improvements to make it into a more complete software project. Detailed results are analysed in Chapter \ref{results}.  
+
+The majority of users felt that this game delivered as an effective educational tool. Most of those surveyed also didn't understand Natural Deduction before playing the game and after playing the game, felt that they had learnt more about the topic. The testing suggests that this game is a good tool for learning and that people also think that it is more effective learning through the medium of this game rather than learning in a classroom. These positive results show the further potential for a Natural Deduction game and how people can enjoy it whilst still learning from it.  
+
+
+%Users did not seem to have problems with the key functionality of the game and this was structurally strong. The main core concept has been put in place but there are small changes that are needed to make this game issue free. Users seemed to value the educational benefit more than the fun element and more work would need to go into the project to crease the fun factor of the game.
+
 \end{document}

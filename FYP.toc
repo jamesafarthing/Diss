@@ -1,62 +1,102 @@
 \select@language {english}
 \contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}
-\contentsline {chapter}{\numberline {2}Literature Review}{4}{chapter.2}
-\contentsline {section}{\numberline {2.1}Project summary}{4}{section.2.1}
-\contentsline {section}{\numberline {2.2}Gamification}{4}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Uses}{5}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Advantages}{6}{subsection.2.2.2}
-\contentsline {subsubsection}{Instant Feedback}{6}{section*.4}
-\contentsline {subsubsection}{Social and Competitive Aspects}{7}{section*.5}
-\contentsline {subsubsection}{Fun}{8}{section*.6}
-\contentsline {subsubsection}{Hints and Tips}{8}{section*.7}
-\contentsline {subsection}{\numberline {2.2.3}Current Educational Games}{8}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Education}{9}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Different learning styles}{10}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Current Natural Deduction Educational Resources}{11}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Online Natural Deduction Resources}{12}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}Natural Deduction}{13}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}History}{13}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Why Natural Deduction is Suitable to Make a Game for}{14}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Mathematics}{15}{subsection.2.4.3}
-\contentsline {subsubsection}{Notation}{15}{section*.8}
-\contentsline {subsubsection}{Rules}{16}{section*.9}
-\contentsline {paragraph}{Conjunction introduction}{16}{section*.10}
-\contentsline {paragraph}{Conjunction elimination}{16}{section*.11}
-\contentsline {paragraph}{Implication introduction}{17}{section*.12}
-\contentsline {paragraph}{Implication elimination (Modus ponens)}{17}{section*.13}
-\contentsline {paragraph}{Disjunction introduction}{17}{section*.14}
-\contentsline {paragraph}{Disjunction elimination}{18}{section*.15}
-\contentsline {section}{\numberline {2.5}Concluding remarks}{18}{section.2.5}
-\contentsline {chapter}{\numberline {3}Requirements Analysis and Requirements Specification}{20}{chapter.3}
-\contentsline {section}{\numberline {3.1}Target Audience}{20}{section.3.1}
-\contentsline {section}{\numberline {3.2}Project Goals and Targets}{21}{section.3.2}
-\contentsline {section}{\numberline {3.3}Software Requirements}{21}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Functional Requirements}{22}{subsection.3.3.1}
-\contentsline {subsubsection}{Gaming Elements}{22}{section*.16}
-\contentsline {subsection}{\numberline {3.3.2}Non Functional Requirements}{23}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Hardware Requirements}{24}{section.3.4}
-\contentsline {section}{\numberline {3.5}Programming Language}{25}{section.3.5}
-\contentsline {section}{\numberline {3.6}Project Limitations}{26}{section.3.6}
-\contentsline {section}{\numberline {3.7}Changes to Existing Systems}{27}{section.3.7}
-\contentsline {chapter}{\numberline {4}Design}{29}{chapter.4}
-\contentsline {section}{\numberline {4.1}Data Design}{29}{section.4.1}
-\contentsline {section}{\numberline {4.2}Data Flow Diagram}{31}{section.4.2}
-\contentsline {section}{\numberline {4.3}Architecture Design}{33}{section.4.3}
-\contentsline {section}{\numberline {4.4}Interface Design}{35}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Design Principles}{35}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}User Designs}{36}{subsection.4.4.2}
-\contentsline {subsubsection}{Basic Level Design}{37}{section*.17}
-\contentsline {subsubsection}{Pop up boxes for level introduction}{38}{section*.18}
-\contentsline {subsubsection}{Multiple lines of proof and other objects on the canvas}{38}{section*.19}
-\contentsline {chapter}{\numberline {5}Implementation}{40}{chapter.5}
-\contentsline {section}{\numberline {5.1}Beginning the project}{40}{section.5.1}
-\contentsline {section}{\numberline {5.2}Drag and Drop}{41}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Original Colour System}{42}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Dots System}{43}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Data Structures}{45}{section.5.3}
-\contentsline {section}{\numberline {5.4}Unification Algorithm}{46}{section.5.4}
-\contentsline {section}{\numberline {5.5}Drawing and rendering algorithms}{47}{section.5.5}
-\contentsline {section}{\numberline {5.6}Levels and how the Software was turned into a Game}{48}{section.5.6}
-\contentsline {chapter}{\numberline {6}System Testing}{50}{chapter.6}
-\contentsline {chapter}{\numberline {7}Results}{51}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusion}{52}{chapter.8}
+\contentsline {chapter}{\numberline {2}Literature Review}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Gamification}{7}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Uses of Gamification}{8}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Advantages}{9}{subsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.2.1}Instant Feedback}{9}{subsubsection.2.1.2.1}
+\contentsline {subsubsection}{\numberline {2.1.2.2}Social and Competitive Aspects}{10}{subsubsection.2.1.2.2}
+\contentsline {subsubsection}{\numberline {2.1.2.3}Fun and Enjoyment of Games}{11}{subsubsection.2.1.2.3}
+\contentsline {subsubsection}{\numberline {2.1.2.4}Hints and Tips}{11}{subsubsection.2.1.2.4}
+\contentsline {subsection}{\numberline {2.1.3}Current Educational Games}{12}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Education}{13}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Different learning styles}{13}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Current Natural Deduction Educational Resources}{14}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Online Natural Deduction Resources}{16}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Natural Deduction}{16}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}History}{17}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Why using Natural Deduction is Suitable to Make a Game for}{18}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Mathematics of Intuitionistic Logic}{19}{subsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.3.1}Notation}{19}{subsubsection.2.3.3.1}
+\contentsline {subsubsection}{\numberline {2.3.3.2}Rules}{20}{subsubsection.2.3.3.2}
+\contentsline {paragraph}{Conjunction introduction}{20}{section*.4}
+\contentsline {paragraph}{Conjunction elimination}{20}{section*.5}
+\contentsline {paragraph}{Implication introduction}{21}{section*.6}
+\contentsline {paragraph}{Implication elimination (Modus ponens)}{21}{section*.7}
+\contentsline {paragraph}{Disjunction introduction}{21}{section*.8}
+\contentsline {paragraph}{Disjunction elimination}{22}{section*.9}
+\contentsline {section}{\numberline {2.4}Notes on the Literature}{22}{section.2.4}
+\contentsline {chapter}{\numberline {3}Requirements Analysis and Specification}{24}{chapter.3}
+\contentsline {section}{\numberline {3.1}Target Audience}{24}{section.3.1}
+\contentsline {section}{\numberline {3.2}Project Goals and Targets}{25}{section.3.2}
+\contentsline {section}{\numberline {3.3}Software Requirements}{26}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Functional Requirements}{26}{subsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Provide an intuitive drag and drop interface}{26}{subsubsection.3.3.1.1}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Making all elements of the game drag and drop}{26}{subsubsection.3.3.1.2}
+\contentsline {subsubsection}{\numberline {3.3.1.3}Have proofs rendered nicely so they fit on the screen}{26}{subsubsection.3.3.1.3}
+\contentsline {subsubsection}{\numberline {3.3.1.4}Allowing the user to experiment with proofs and possibly create their own levels}{27}{subsubsection.3.3.1.4}
+\contentsline {subsubsection}{\numberline {3.3.1.5}An algorithm or a system that can successfully recognise whether a solution to a proof is correct}{27}{subsubsection.3.3.1.5}
+\contentsline {subsubsection}{\numberline {3.3.1.6}Provide hints and tips for the user}{27}{subsubsection.3.3.1.6}
+\contentsline {subsubsection}{\numberline {3.3.1.7}Have levels that will increase in difficulty and guide the user through the learning process}{27}{subsubsection.3.3.1.7}
+\contentsline {subsubsection}{\numberline {3.3.1.8}Create a reward, scoring or recognition system for users to tell how they are doing}{27}{subsubsection.3.3.1.8}
+\contentsline {subsubsection}{\numberline {3.3.1.9}It should be more fun than learning Natural Deduction logic in a traditional way}{27}{subsubsection.3.3.1.9}
+\contentsline {subsection}{\numberline {3.3.2}Non Functional Requirements}{28}{subsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.2.1}Testing must be undertaken to make sure the software is working as desired.}{28}{subsubsection.3.3.2.1}
+\contentsline {subsubsection}{\numberline {3.3.2.2}The system must react consistently with 100\% reliability.}{28}{subsubsection.3.3.2.2}
+\contentsline {subsubsection}{\numberline {3.3.2.3}The system must be robust and secure.}{28}{subsubsection.3.3.2.3}
+\contentsline {subsubsection}{\numberline {3.3.2.4}The code should be written in a way which is easy to maintain.}{28}{subsubsection.3.3.2.4}
+\contentsline {subsubsection}{\numberline {3.3.2.5}The program must be written in a way in which it could be scaled up in the future.}{29}{subsubsection.3.3.2.5}
+\contentsline {subsubsection}{\numberline {3.3.2.6}The user should feel like they have a better understanding of Natural Deduction on completion of the game.}{29}{subsubsection.3.3.2.6}
+\contentsline {section}{\numberline {3.4}Hardware Requirements}{29}{section.3.4}
+\contentsline {subsubsection}{\numberline {3.4.0.1}All code should run by the client.}{29}{subsubsection.3.4.0.1}
+\contentsline {subsubsection}{\numberline {3.4.0.2}The software should be able to run on a variety of browsers.}{29}{subsubsection.3.4.0.2}
+\contentsline {subsubsection}{\numberline {3.4.0.3}The software should run comfortably on a PC or Laptop and be played with a mouse.}{30}{subsubsection.3.4.0.3}
+\contentsline {section}{\numberline {3.5}Programming Language}{30}{section.3.5}
+\contentsline {section}{\numberline {3.6}Project Limitations}{32}{section.3.6}
+\contentsline {section}{\numberline {3.7}Changes to Existing Systems}{32}{section.3.7}
+\contentsline {chapter}{\numberline {4}Design}{34}{chapter.4}
+\contentsline {section}{\numberline {4.1}Data Design}{34}{section.4.1}
+\contentsline {section}{\numberline {4.2}Data Flow Diagram}{36}{section.4.2}
+\contentsline {section}{\numberline {4.3}Architecture Design}{38}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}File Structure}{38}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Key Functions}{38}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Interface Design}{41}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Design Principles}{41}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}User Interface Designs}{42}{subsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.2.1}Basic Level Design}{43}{subsubsection.4.4.2.1}
+\contentsline {subsubsection}{\numberline {4.4.2.2}Pop up boxes for level introduction}{44}{subsubsection.4.4.2.2}
+\contentsline {subsubsection}{\numberline {4.4.2.3}Multiple lines of proof and other objects on the canvas: Original Design}{45}{subsubsection.4.4.2.3}
+\contentsline {subsubsection}{\numberline {4.4.2.4}Multiple lines of proof and other objects on the canvas: New Design}{46}{subsubsection.4.4.2.4}
+\contentsline {chapter}{\numberline {5}Implementation}{47}{chapter.5}
+\contentsline {section}{\numberline {5.1}Beginning the project}{47}{section.5.1}
+\contentsline {section}{\numberline {5.2}Drag and Drop}{48}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Original Colour System}{49}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}The Dots System}{51}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Data Structures}{53}{section.5.3}
+\contentsline {section}{\numberline {5.4}Drawing and rendering algorithms}{54}{section.5.4}
+\contentsline {section}{\numberline {5.5}The Game Play}{56}{section.5.5}
+\contentsline {section}{\numberline {5.6}Design Implementation}{58}{section.5.6}
+\contentsline {chapter}{\numberline {6}System Testing}{60}{chapter.6}
+\contentsline {section}{\numberline {6.1}Developer Testing}{60}{section.6.1}
+\contentsline {section}{\numberline {6.2}Functional Testing}{61}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Unit Testing}{61}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Acceptance Testing}{62}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Non Functional \& Hardware Testing}{63}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Stress Testing}{63}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Security Testing}{64}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Compatibility Testing}{65}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}Other Hardware Comments}{65}{subsection.6.3.4}
+\contentsline {chapter}{\numberline {7}Results}{66}{chapter.7}
+\contentsline {section}{\numberline {7.1}User Questionnaire \& Feedback}{66}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Age and Mathematical ability}{67}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Prior Natural Deduction Knowledge}{67}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Tutorial}{68}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}Hints and Tips}{69}{subsection.7.1.4}
+\contentsline {subsection}{\numberline {7.1.5}Levels and Difficulty}{70}{subsection.7.1.5}
+\contentsline {subsection}{\numberline {7.1.6}Fun}{71}{subsection.7.1.6}
+\contentsline {subsection}{\numberline {7.1.7}Educational Value}{72}{subsection.7.1.7}
+\contentsline {subsection}{\numberline {7.1.8}Usability}{73}{subsection.7.1.8}
+\contentsline {section}{\numberline {7.2}Improvements to the game}{74}{section.7.2}
+\contentsline {section}{\numberline {7.3}Further Work}{75}{section.7.3}
+\contentsline {chapter}{\numberline {8}Conclusion}{77}{chapter.8}
+\contentsline {chapter}{\numberline {A}User Testing Results}{83}{appendix.A}

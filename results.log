@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.6)  19 APR 2016 10:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.6)  13 APR 2016 21:20
 entering extended mode
-**C:/Users/James/Desktop/Diss/design.tex
-(C:/Users/James/Desktop/Diss/design.tex
+**C:/Users/James/Desktop/Diss/results.tex
+(C:/Users/James/Desktop/Diss/results.tex
 LaTeX2e <2015/01/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 69 languages loaded.
 ("C:\Program Files (x86)\MikTex\tex\latex\subfiles\subfiles.cls"
@@ -617,426 +617,7 @@ File: babel.def 2015/08/03 3.9m Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-("C:\Program Files (x86)\MikTex\tex\latex\pgf-pie\pgf-pie.sty"
-Package: pgf-pie 2011/10/02 v0.2 Some LaTeX macros for pie chart by using PGF/T
-ikz package.
-
-("C:\Program Files (x86)\MikTex\tex\latex\pgf\frontendlayer\tikz.sty"
-("C:\Program Files (x86)\MikTex\tex\latex\pgf\basiclayer\pgf.sty"
-("C:\Program Files (x86)\MikTex\tex\latex\pgf\utilities\pgfrcs.sty"
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\utilities\pgfutil-common.tex"
-\pgfutil@everybye=\toks27
-\pgfutil@tempdima=\dimen151
-\pgfutil@tempdimb=\dimen152
-
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\utilities\pgfutil-common-lists.
-tex"))
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\utilities\pgfutil-latex.def"
-\pgfutil@abb=\box62
-
-("C:\Program Files (x86)\MikTex\tex\latex\ms\everyshi.sty"
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\utilities\pgfrcs.code.tex"
-Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
-))
-Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
-
-("C:\Program Files (x86)\MikTex\tex\latex\pgf\basiclayer\pgfcore.sty"
-("C:\Program Files (x86)\MikTex\tex\latex\pgf\systemlayer\pgfsys.sty"
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\systemlayer\pgfsys.code.tex"
-Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
-
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\utilities\pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks28
-\pgfkeys@temptoks=\toks29
-
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\utilities\pgfkeysfiltered.code.
-tex"
-\pgfkeys@tmptoks=\toks30
-))
-\pgf@x=\dimen153
-\pgf@y=\dimen154
-\pgf@xa=\dimen155
-\pgf@ya=\dimen156
-\pgf@xb=\dimen157
-\pgf@yb=\dimen158
-\pgf@xc=\dimen159
-\pgf@yc=\dimen160
-\w@pgf@writea=\write3
-\r@pgf@reada=\read2
-\c@pgf@counta=\count131
-\c@pgf@countb=\count132
-\c@pgf@countc=\count133
-\c@pgf@countd=\count134
-\t@pgf@toka=\toks31
-\t@pgf@tokb=\toks32
-\t@pgf@tokc=\toks33
- ("C:\Program Files (x86)\MikTex\tex\generic\pgf\systemlayer\pgf.cfg"
-File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
-)
-Driver file for pgf: pgfsys-pdftex.def
-
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
-File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
-
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\systemlayer\pgfsys-common-pdf.d
-ef"
-File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
-)))
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\systemlayer\pgfsyssoftpath.code
-.tex"
-File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count135
-\pgfsyssoftpath@bigbuffer@items=\count136
-)
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\systemlayer\pgfsysprotocol.code
-.tex"
-File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) ("C:\Program Files (x86)\MikTex\tex\latex\xcolor\xcolor.sty"
-Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
-
-("C:\Program Files (x86)\MikTex\tex\latex\00miktex\color.cfg"
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
-Package xcolor Info: Model `RGB' extended on input line 1353.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-)
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\basiclayer\pgfcore.code.tex"
-Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
-
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\math\pgfmath.code.tex"
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\math\pgfmathcalc.code.tex"
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\math\pgfmathutil.code.tex")
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\math\pgfmathparser.code.tex"
-\pgfmath@dimen=\dimen161
-\pgfmath@count=\count137
-\pgfmath@box=\box63
-\pgfmath@toks=\toks34
-\pgfmath@stack@operand=\toks35
-\pgfmath@stack@operation=\toks36
-)
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\math\pgfmathfunctions.code.tex"
-
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\math\pgfmathfunctions.basic.cod
-e.tex")
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\math\pgfmathfunctions.trigonome
-tric.code.tex")
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\math\pgfmathfunctions.random.co
-de.tex")
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\math\pgfmathfunctions.compariso
-n.code.tex")
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\math\pgfmathfunctions.base.code
-.tex")
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\math\pgfmathfunctions.round.cod
-e.tex")
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\math\pgfmathfunctions.misc.code
-.tex")
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\math\pgfmathfunctions.integerar
-ithmetics.code.tex")))
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\math\pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count138
-))
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\basiclayer\pgfcorepoints.code.t
-ex"
-File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen162
-\pgf@picmaxx=\dimen163
-\pgf@picminy=\dimen164
-\pgf@picmaxy=\dimen165
-\pgf@pathminx=\dimen166
-\pgf@pathmaxx=\dimen167
-\pgf@pathminy=\dimen168
-\pgf@pathmaxy=\dimen169
-\pgf@xx=\dimen170
-\pgf@xy=\dimen171
-\pgf@yx=\dimen172
-\pgf@yy=\dimen173
-\pgf@zx=\dimen174
-\pgf@zy=\dimen175
-)
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\basiclayer\pgfcorepathconstruct
-.code.tex"
-File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen176
-\pgf@path@lasty=\dimen177
-)
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\basiclayer\pgfcorepathusage.cod
-e.tex"
-File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen178
-\pgf@shorten@start@additional=\dimen179
-)
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\basiclayer\pgfcorescopes.code.t
-ex"
-File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box64
-\pgf@hbox=\box65
-\pgf@layerbox@main=\box66
-\pgf@picture@serial@count=\count139
-)
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\basiclayer\pgfcoregraphicstate.
-code.tex"
-File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen180
-)
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\basiclayer\pgfcoretransformatio
-ns.code.tex"
-File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen181
-\pgf@pt@y=\dimen182
-\pgf@pt@temp=\dimen183
-)
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\basiclayer\pgfcorequick.code.te
-x"
-File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
-)
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\basiclayer\pgfcoreobjects.code.
-tex"
-File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
-)
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\basiclayer\pgfcorepathprocessin
-g.code.tex"
-File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
-)
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\basiclayer\pgfcorearrows.code.t
-ex"
-File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen184
-)
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\basiclayer\pgfcoreshade.code.te
-x"
-File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen185
-\pgf@sys@shading@range@num=\count140
-)
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\basiclayer\pgfcoreimage.code.te
-x"
-File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
-
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\basiclayer\pgfcoreexternal.code
-.tex"
-File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box67
-))
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\basiclayer\pgfcorelayers.code.t
-ex"
-File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
-)
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\basiclayer\pgfcoretransparency.
-code.tex"
-File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
-)
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\basiclayer\pgfcorepatterns.code
-.tex"
-File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
-)))
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\modules\pgfmoduleshapes.code.te
-x"
-File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box68
-)
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
-File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
-)
-("C:\Program Files (x86)\MikTex\tex\latex\pgf\compatibility\pgfcomp-version-0-6
-5.sty"
-Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen186
-\pgf@nodesepend=\dimen187
-)
-("C:\Program Files (x86)\MikTex\tex\latex\pgf\compatibility\pgfcomp-version-1-1
-8.sty"
-Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-)) ("C:\Program Files (x86)\MikTex\tex\latex\pgf\utilities\pgffor.sty"
-("C:\Program Files (x86)\MikTex\tex\latex\pgf\utilities\pgfkeys.sty"
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\utilities\pgfkeys.code.tex"))
-("C:\Program Files (x86)\MikTex\tex\latex\pgf\math\pgfmath.sty"
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\math\pgfmath.code.tex"))
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\utilities\pgffor.code.tex"
-Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
-
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\math\pgfmath.code.tex")
-\pgffor@iter=\dimen188
-\pgffor@skip=\dimen189
-\pgffor@stack=\toks37
-\pgffor@toks=\toks38
-))
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\frontendlayer\tikz\tikz.code.te
-x"
-Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
-
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\libraries\pgflibraryplothandler
-s.code.tex"
-File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count141
-\pgfplotmarksize=\dimen190
-)
-\tikz@lastx=\dimen191
-\tikz@lasty=\dimen192
-\tikz@lastxsaved=\dimen193
-\tikz@lastysaved=\dimen194
-\tikzleveldistance=\dimen195
-\tikzsiblingdistance=\dimen196
-\tikz@figbox=\box69
-\tikz@figbox@bg=\box70
-\tikz@tempbox=\box71
-\tikz@tempbox@bg=\box72
-\tikztreelevel=\count142
-\tikznumberofchildren=\count143
-\tikznumberofcurrentchild=\count144
-\tikz@fig@count=\count145
-
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\modules\pgfmodulematrix.code.te
-x"
-File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count146
-\pgfmatrixcurrentcolumn=\count147
-\pgf@matrix@numberofcolumns=\count148
-)
-\tikz@expandcount=\count149
-
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\frontendlayer\tikz\libraries\ti
-kzlibrarytopaths.code.tex"
-File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-)))
-("C:\Program Files (x86)\MikTex\tex\latex\base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-("C:\Program Files (x86)\MikTex\tex\latex\carlisle\scalefnt.sty")
-\pgfpie@angleEnd=\skip60
-\c@pgfpie@explodeLength=\count150
-\c@pgfpie@colorLength=\count151
-\c@pgfpie@sliceLength=\count152
-)
-("C:\Program Files (x86)\MikTex\tex\latex\pgfplots\pgfplots.sty"
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\pgfplots.revision.tex")
-Package: pgfplots 2016/01/06 v1.13 Data Visualization (1.13)
-
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\pgfplots.code.tex"
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\pgfplotscore.code.tex"
-\t@pgfplots@toka=\toks39
-\t@pgfplots@tokb=\toks40
-\t@pgfplots@tokc=\toks41
-\pgfplots@tmpa=\dimen197
-\c@pgfplots@coordindex=\count153
-\c@pgfplots@scanlineindex=\count154
-
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\sys\pgfplotssysgeneric.cod
-e.tex"))
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\libs\pgfplotslibrary.code.
-tex")
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\oldpgfcompatib\pgfplotsold
-pgfsupp_loader.code.tex"
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\libraries\pgflibraryfpu.code.te
-x")
-Package pgfplots: loading complementary arithmetics for your pgf version...
-
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\oldpgfcompatib\pgfplotsold
-pgfsupp_pgflibraryfpu.code.tex")
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\oldpgfcompatib\pgfplotsold
-pgfsupp_pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count155
-))
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\util\pgfplotsutil.code.tex
-"
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\liststructure\pgfplotslist
-structure.code.tex")
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\liststructure\pgfplotslist
-structureext.code.tex")
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\liststructure\pgfplotsarra
-y.code.tex"
-\c@pgfplotsarray@tmp=\count156
-)
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\liststructure\pgfplotsmatr
-ix.code.tex")
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\numtable\pgfplotstableshar
-ed.code.tex"
-\c@pgfplotstable@counta=\count157
-\t@pgfplotstable@a=\toks42
-)
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\liststructure\pgfplotsdequ
-e.code.tex")
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\util\pgfplotsbinary.code.t
-ex"
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\util\pgfplotsbinary.data.c
-ode.tex"))
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\util\pgfplotsutil.verb.cod
-e.tex")
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\libs\pgflibrarypgfplots.su
-rfshading.code.tex"
-\c@pgfplotslibrarysurf@no=\count158
-
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\sys\pgflibrarypgfplots.sur
-fshading.pgfsys-pdftex.def")))
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\util\pgfplotscolormap.code
-.tex"
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\util\pgfplotscolor.code.te
-x"))
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\pgfplotsstackedplots.code.
-tex")
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\pgfplotsplothandlers.code.
-tex"
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\pgfplotsmeshplothandler.co
-de.tex"
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\pgfplotsmeshplotimage.code
-.tex")))
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\pgfplots.scaling.code.tex"
-)
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\pgfplotscoordprocessing.co
-de.tex")
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\pgfplots.errorbars.code.te
-x")
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\pgfplots.markers.code.tex"
-) ("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\pgfplotsticks.code.tex")
-("C:\Program Files (x86)\MikTex\tex\generic\pgfplots\pgfplots.paths.code.tex")
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\frontendlayer\tikz\libraries\ti
-kzlibrarydecorations.code.tex"
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\modules\pgfmoduledecorations.co
-de.tex"
-\pgfdecoratedcompleteddistance=\dimen198
-\pgfdecoratedremainingdistance=\dimen199
-\pgfdecoratedinputsegmentcompleteddistance=\dimen200
-\pgfdecoratedinputsegmentremainingdistance=\dimen201
-\pgf@decorate@distancetomove=\dimen202
-\pgf@decorate@repeatstate=\count159
-\pgfdecorationsegmentamplitude=\dimen203
-\pgfdecorationsegmentlength=\dimen204
-)
-\tikz@lib@dec@box=\box73
-)
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\frontendlayer\tikz\libraries\ti
-kzlibrarydecorations.pathmorphing.code.tex"
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\libraries\decorations\pgflibrar
-ydecorations.pathmorphing.code.tex"))
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\frontendlayer\tikz\libraries\ti
-kzlibrarydecorations.pathreplacing.code.tex"
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\libraries\decorations\pgflibrar
-ydecorations.pathreplacing.code.tex"))
-\pgfplots@numplots=\count160
-\pgfplots@xmin@reg=\dimen205
-\pgfplots@xmax@reg=\dimen206
-\pgfplots@ymin@reg=\dimen207
-\pgfplots@ymax@reg=\dimen208
-\pgfplots@zmin@reg=\dimen209
-\pgfplots@zmax@reg=\dimen210
-)
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\frontendlayer\tikz\libraries\ti
-kzlibraryplotmarks.code.tex"
-File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
-
-("C:\Program Files (x86)\MikTex\tex\generic\pgf\libraries\pgflibraryplotmarks.c
-ode.tex"
-File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
-))) ("C:\Program Files (x86)\MikTex\tex\latex\subfiles\subfiles.sty"
+("C:\Program Files (x86)\MikTex\tex\latex\subfiles\subfiles.sty"
 Package: subfiles 2012/05/23 Federico Garcia
 )
 ("C:\Program Files (x86)\MikTex\tex\latex\blindtext\blindtext.sty"
@@ -1045,24 +626,24 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 ("C:\Program Files (x86)\MikTex\tex\latex\tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count161
-\c@Blindtext=\count162
-\c@blind@countparstart=\count163
-\blind@countxx=\count164
-\blindtext@numBlindtext=\count165
-\blind@countyy=\count166
-\c@blindlist=\count167
-\c@blindlistlevel=\count168
-\c@blindlist@level=\count169
-\blind@listitem=\count170
-\c@blind@listcount=\count171
-\c@blind@levelcount=\count172
-\blind@mathformula=\count173
-\blind@Mathformula=\count174
-\c@blind@randomcount=\count175
-\c@blind@randommax=\count176
-\c@blind@pangramcount=\count177
-\c@blind@pangrammax=\count178
+\c@blindtext=\count131
+\c@Blindtext=\count132
+\c@blind@countparstart=\count133
+\blind@countxx=\count134
+\blindtext@numBlindtext=\count135
+\blind@countyy=\count136
+\c@blindlist=\count137
+\c@blindlistlevel=\count138
+\c@blindlist@level=\count139
+\blind@listitem=\count140
+\c@blind@listcount=\count141
+\c@blind@levelcount=\count142
+\blind@mathformula=\count143
+\blind@Mathformula=\count144
+\c@blind@randomcount=\count145
+\c@blind@randommax=\count146
+\c@blind@pangramcount=\count147
+\c@blind@pangrammax=\count148
 )))
 
 ! LaTeX Error: Missing \begin{document}.
@@ -1071,24 +652,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 \section
-            {Data Design} \label{des:data}
+l.3 T
+     he basis of this project is determine whether a game can improve a user...
+
 ? 
 ! Emergency stop.
  ...                                              
                                                   
-l.3 \section
-            {Data Design} \label{des:data}
+l.3 T
+     he basis of this project is determine whether a game can improve a user...
+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
  
 Here is how much of TeX's memory you used:
- 26986 strings out of 493673
- 634912 string characters out of 3143150
- 866797 words of memory out of 3000000
- 29901 multiletter control sequences out of 15000+200000
+ 7729 strings out of 493673
+ 110415 string characters out of 3143150
+ 222465 words of memory out of 3000000
+ 10999 multiletter control sequences out of 15000+200000
  3940 words of font info for 15 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 71i,0n,79p,755b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,0n,45p,518b,220s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
